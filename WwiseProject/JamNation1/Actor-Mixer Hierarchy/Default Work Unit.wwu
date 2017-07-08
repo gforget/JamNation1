@@ -1,6 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{40ACB654-4566-4A7F-B951-6D5566824831}" SchemaVersion="75">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{40ACB654-4566-4A7F-B951-6D5566824831}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{40ACB654-4566-4A7F-B951-6D5566824831}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Ambiances" ID="{B49F0F60-DBB8-41DA-BECB-13E9B6D168F0}" ShortID="286793377">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46E69A4D-892E-4D20-94FE-894D163BF758}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_River" ID="{F14E0001-9AF6-412E-AE03-7D9850908AE1}" ShortID="445964888" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46E69A4D-892E-4D20-94FE-894D163BF758}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_River" ID="{40A5DCDB-C71D-4D1D-9713-D0343BE57407}" ShortID="103563836">
+									<Language>SFX</Language>
+									<AudioFile>AMB_River.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_River" ID="{40A5DCDB-C71D-4D1D-9713-D0343BE57407}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Mountain" ID="{2F43BF50-0FFC-47EF-963C-94ECFC02E0C7}" ShortID="672976340" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46E69A4D-892E-4D20-94FE-894D163BF758}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Mountain" ID="{7AF659FB-0DC1-4BAB-B700-686C83D47ECA}" ShortID="595862749">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Mountain.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Mountain" ID="{7AF659FB-0DC1-4BAB-B700-686C83D47ECA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Jungle" ID="{DB1AD102-ED08-4B53-B2A5-EA3370C431E1}" ShortID="673135489" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46E69A4D-892E-4D20-94FE-894D163BF758}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Jungle" ID="{10C9B044-7ECA-41EB-B3EA-25C67C76EF33}" ShortID="644475235">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Jungle.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Jungle" ID="{10C9B044-7ECA-41EB-B3EA-25C67C76EF33}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Grotto" ID="{857FB60C-9B69-4B48-9976-792E0D6B221B}" ShortID="374970791" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{46E69A4D-892E-4D20-94FE-894D163BF758}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Grotto" ID="{F47F7971-28E7-4753-8E7F-816B265B880E}" ShortID="384835817">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Grotto.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Grotto" ID="{F47F7971-28E7-4753-8E7F-816B265B880E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
