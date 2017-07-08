@@ -202,6 +202,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		void CheckGroundStatus()
 		{
 			RaycastHit hitInfo;
+
 #if UNITY_EDITOR
 			// helper to visualise the ground check ray in the scene view
 			Debug.DrawLine(transform.position + (Vector3.up * 0.1f), transform.position + (Vector3.up * 0.1f) + (Vector3.down * m_GroundCheckDistance));
