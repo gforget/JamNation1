@@ -1,4 +1,6 @@
-﻿Shader "ProBuilder/UnlitVertexColor"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "ProBuilder/UnlitVertexColor"
 {
 	SubShader
 	{

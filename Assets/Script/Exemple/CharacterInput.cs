@@ -5,10 +5,10 @@ using XInputDotNetPure;
 public abstract class CharacterInput : MonoBehaviour {
     public int playerIndex;
 
-    protected WraithController controller;
+    //protected WraithController controller;
 
     void Start()
     {
-        controller = GetComponent<WraithController>();
+        //controller = GetComponent<WraithController>();
     }
 }
