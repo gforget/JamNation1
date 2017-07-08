@@ -3,98 +3,106 @@ using System.Collections.Generic;
 using UnityEngine;
 using XInputDotNetPure;
 
-public class RunnerController : MonoBehaviour {
+public class RunnerController : MonoBehaviour
+{
+    public enum CharacterState
+    {
+        withEgg = 0,
+        withoutEgg = 1,
+        Death = 2
+    }
 
-    public int playerIndex;
-    public float groundDistance = 0.2f;
-    public float JumpInitialVelocity = 10.0f;
+    public int m_PlayerIndex;
     public float gravity = 2.0f;
 
-    public float translationSpeed;
-    public float Speed;
+    public float m_SpeedWithoutEgg;
+    public float m_SpeedWithEgg;
 
-    Rigidbody m_Rigidbody;
-    Animator m_Animator;
-    CapsuleCollider m_Capsule;
-    CharacterController controller;
+    public float m_JumpWithoutEgg;
+    public float m_JumpWithEgg;
 
-    private GamePadState state;
-    private GamePadState prevState;
-    private Vector3 direction;
-    private x360_Gamepad gamepad;
-
-    private bool isGrounded
+    public CharacterState characterState
     {
         get
         {
-            return _isGrounded;
+            return m_CharacterState;
         }
 
         set
         {
-            _isGrounded = value;
-            if (_isGrounded) yVelocity = 0;
+            m_CharacterState = value;
+            if (m_CharacterState == CharacterState.withEgg)
+            {
+                m_SpeedX = m_SpeedWithEgg;
+                m_JumpInitialVelocity = m_JumpWithEgg;
+            }
+
+            if (m_CharacterState == CharacterState.withoutEgg)
+            {
+                m_SpeedX = m_SpeedWithoutEgg;
+                m_JumpInitialVelocity = m_JumpWithoutEgg;
+            }
         }
     }
 
-    private bool _isGrounded;
+    private CharacterState m_CharacterState;
 
-    private float xVelocity;
-    private float yVelocity;
+    Animator m_Animator;
+    CharacterController m_Controller;
+
+    private Vector3 m_Direction;
+    private x360_Gamepad m_Gamepad;
+
+    private float m_XVelocity;
+    private float m_YVelocity;
     private float m_CapsuleHeight;
     private Vector3 m_CapsuleCenter;
-    private int layermask = 1 << 8;
+    private int m_LayerMask = 1 << 8;
+
+    private float m_SpeedX;
+    private float m_JumpInitialVelocity;
 
     // Use this for initialization
     void Awake ()
     {
-        //m_Rigidbody = GetComponent<Rigidbody>();
-        m_Capsule = GetComponent<CapsuleCollider>();
-
-        m_CapsuleHeight = m_Capsule.height;
-        m_CapsuleCenter = m_Capsule.center;
-
-        gamepad = GamepadManager.Instance.GetGamepad(playerIndex);
-
-        controller = GetComponent<CharacterController>();
+        m_Gamepad = GamepadManager.Instance.GetGamepad(m_PlayerIndex);
+        m_Controller = GetComponent<CharacterController>();
+        characterState = CharacterState.withEgg;
     }
 
+    bool m_HavePressA;
     private void Update()
     {
-        if (gamepad.GetButtonDown("A") && controller.isGrounded)
+        if (m_Gamepad.GetButtonDown("A") && m_Controller.isGrounded)
         {
-            yVelocity = JumpInitialVelocity;
+            m_YVelocity = m_JumpInitialVelocity;
+            m_HavePressA = true;
         }
+
+        if (m_Gamepad.GetButtonDown("X"))
+        {
+            characterState = characterState == CharacterState.withEgg ? CharacterState.withoutEgg : CharacterState.withEgg;
+
+        }
+
+        if (m_Controller.isGrounded && m_YVelocity < 0)
+        {
+            m_YVelocity = 0;
+        }
+
+        Debug.Log(m_CharacterState);
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!gamepad.IsConnected) return;
+        if (!m_Gamepad.IsConnected) return;
 
-        Debug.Log(controller.isGrounded);
+        m_XVelocity = m_Gamepad.GetStick_L().X * m_SpeedX;
+        m_YVelocity -= gravity;
 
-        xVelocity = gamepad.GetStick_L().X * Speed;
-        yVelocity -= gravity;
-
-        direction = (transform.right * xVelocity) + (transform.up*yVelocity);
-        controller.Move(direction*Time.deltaTime);
-
-        //m_Rigidbody.velocity = direction * Time.deltaTime;
-
-        //if (Physics.Raycast(RaycastStartPosition, transform.up * -1f, out hit, groundDistance) && yVelocity <= 0)
-        //{
-        //    isGrounded = true;
-        //    yVelocity = 0;
-        //}
-        //else
-        //{
-        //    isGrounded = false;
-        //}
-
-        //Debug.Log(yVelocity);
-        //direction = (transform.right * xVelocity) + (transform.up*yVelocity);
-        //m_Rigidbody.velocity = direction * Time.deltaTime;
+        m_Direction = (transform.right * m_XVelocity) + (transform.up*m_YVelocity);
+        m_Controller.Move(m_Direction*Time.deltaTime);
     }
 
 }
