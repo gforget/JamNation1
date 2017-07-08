@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9CBBABD4-E769-4E5E-AC7D-B66EBC1B74E6}" SchemaVersion="75">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{9CBBABD4-E769-4E5E-AC7D-B66EBC1B74E6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9CBBABD4-E769-4E5E-AC7D-B66EBC1B74E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="JamNATION1" ID="{B28E2C3B-BB59-41E0-AEA5-3C33CEFB18E6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambiances" ID="{B49F0F60-DBB8-41DA-BECB-13E9B6D168F0}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
