@@ -18,10 +18,10 @@ public class PlayerInput : CharacterInput {
     void Update () {
         if (gamepad.IsConnected)
         {
-            //if (gamepad.GetButtonDown("A"))
-            //{
-            //    controller.CommandDash();
-            //}
+            if (gamepad.GetButtonDown("A"))
+            {
+                //controller.CommandDash();
+            }
 
             //if (gamepad.GetButton("X"))
             //{
