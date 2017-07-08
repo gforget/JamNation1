@@ -1,6 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Ambiance_start" ID="{FE81713B-0AD4-4DA9-BB54-EBE6D4B9D7BF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A2594499-396A-457B-9471-4C69B2DB35D1}" ShortID="127229754" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D7E1FF0F-613F-425F-A622-90FE8BC4020E}" Global="false">
+									<ObjectRef Name="AMB_Mountain" ID="{2F43BF50-0FFC-47EF-963C-94ECFC02E0C7}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mountain_Jungle" ID="{B6067089-87D7-4FBE-B3A2-B4F9B42D8FD7}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{7253EE61-192D-433E-9F7F-85FBA7EFFAA3}" ShortID="671432220" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{A6506FA9-9AFB-41B0-8EBD-246921F8DBCB}" Global="false">
+									<ObjectRef Name="AMB_Mountain" ID="{2F43BF50-0FFC-47EF-963C-94ECFC02E0C7}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Reset Voice Low-pass Filter" ID="{11D08AB1-8F18-4207-968C-47800D8AE6F4}" ShortID="340556685" Type="ResetLPF" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{042FC1A5-2E88-4AB4-91CD-293D03ABA192}" Global="false">
+									<ObjectRef Name="AMB_Jungle" ID="{DB1AD102-ED08-4B53-B2A5-EA3370C431E1}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{A08C4267-2F4C-4737-9168-C540EEA77DBC}" ShortID="738050415" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{537EB934-2A2A-4D9A-BD92-C6D0DE60EA8C}" Global="false">
+									<ObjectRef Name="AMB_Jungle" ID="{DB1AD102-ED08-4B53-B2A5-EA3370C431E1}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Jungle_Cave" ID="{1285C532-0FA8-4A66-8B33-7ED4B0AE5C70}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B06B1749-E67D-4284-AA8B-86FCB8D3EE8E}" ShortID="225933175" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{927CACDB-0F36-4DAC-A175-5B27160A7EAC}" Global="false">
+									<ObjectRef Name="AMB_Grotto" ID="{857FB60C-9B69-4B48-9976-792E0D6B221B}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Voice Low-pass Filter" ID="{8F32A1DE-44EB-4B41-8939-CDEF78BB3F15}" ShortID="303192876" Type="ChangeLPF" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Lowpass" Type="int16" Value="52"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{A2669D6F-5BAF-496C-9D17-80EE6D576C4D}" Global="false">
+									<ObjectRef Name="AMB_Jungle" ID="{DB1AD102-ED08-4B53-B2A5-EA3370C431E1}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cave_Beach" ID="{CBFC33E7-DF82-40E0-BCBC-3C1AEC598FDF}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{C676948E-D477-4FC5-A88E-237FF005E76B}" ShortID="189873194" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{542969DB-62F5-4976-AE2C-2D27947FF0F8}" Global="false">
+									<ObjectRef Name="AMB_Grotto" ID="{857FB60C-9B69-4B48-9976-792E0D6B221B}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Reset Voice Low-pass Filter" ID="{532208E4-2350-4CC6-81AE-2148FBACBDB6}" ShortID="403044084" Type="ResetLPF" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{F5655810-CB3F-4024-8567-EA1BECFB5C46}" Global="false">
+									<ObjectRef Name="AMB_Jungle" ID="{DB1AD102-ED08-4B53-B2A5-EA3370C431E1}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{307BBCFD-E6AC-420E-8750-04F246DC325E}" ShortID="710011308" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D9261A20-4A68-4202-9AD0-4F0C12FFD3F2}" Global="false">
+									<ObjectRef Name="AMB_River" ID="{F14E0001-9AF6-412E-AE03-7D9850908AE1}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
