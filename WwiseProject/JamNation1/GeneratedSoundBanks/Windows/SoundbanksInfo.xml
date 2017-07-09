@@ -18,7 +18,6 @@
 			<IncludedEvents>
 				<Event Id="778605252" Name="Ambiance_start" ObjectPath="\Events\Default Work Unit\Ambiance_start"/>
 				<Event Id="1201886138" Name="Cave_Beach" ObjectPath="\Events\Default Work Unit\Cave_Beach"/>
-				<Event Id="1058671230" Name="Effect_Cave" ObjectPath="\Events\Default Work Unit\Effect_Cave"/>
 				<Event Id="1240468467" Name="FS_Players" ObjectPath="\Events\Default Work Unit\FS_Players"/>
 				<Event Id="2566409294" Name="Jungle_Cave" ObjectPath="\Events\Default Work Unit\Jungle_Cave"/>
 				<Event Id="3833726988" Name="Mountain_Jungle" ObjectPath="\Events\Default Work Unit\Mountain_Jungle"/>
