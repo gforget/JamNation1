@@ -72,7 +72,6 @@ public class RunnerController : MonoBehaviour
             if (m_CharacterState == CharacterState.Death)
             {
 
-                Debug.Log("respawn");
                 StartCoroutine(RespawnCoroutine());
                 AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Dying", gameObject);
             }
@@ -103,6 +102,7 @@ public class RunnerController : MonoBehaviour
     void Awake ()
     {
         m_Gamepad = GamepadManager.Instance.GetGamepad(m_PlayerIndex);
+
         m_Controller = GetComponent<CharacterController>();
         m_Animator = GetComponent<Animator>();
 
@@ -229,7 +229,7 @@ public class RunnerController : MonoBehaviour
     IEnumerator RespawnCoroutine()
     {
         yield return new WaitForSeconds(m_TimeRespawn);
-
+         
         Vector3 spawnPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y+5.0f, m_BeginZ);
         transform.position = spawnPosition;
         characterState = CharacterState.withoutEgg;
