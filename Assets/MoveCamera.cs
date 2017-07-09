@@ -8,6 +8,9 @@ public class MoveCamera : MonoBehaviour {
 	public GameObject targetCameraObject;
 	public float baseSpeed;
 	public float speedMultiplier;
+
+	public float elevatorMultiplier;
+
 	public int currentWaypoint;
 	public Transform[] waypoints;
 
