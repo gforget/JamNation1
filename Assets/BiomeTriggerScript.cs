@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class BiomeTriggerScript : MonoBehaviour {
 
-//set thisBiome to 1 through 3 depending on biome to trigger;
-public int thisBiome;
+	BoxCollider thisCollider;
+
+	void Start() {
+		thisCollider = GetComponent<BoxCollider>();
+	}
 
 	void OnTriggerEnter(Collider col) {
 				if (col.CompareTag("Player")) {
-					GameManager.instance.biome = thisBiome;
 					GameManager.instance.SwitchBiome();
+					thisCollider.enabled = false;
 				}
 
 	}

@@ -67,7 +67,71 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: Bone001/Bone002/Bone003
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone013
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone017
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone017/Bone018
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone017/Bone018/Bone019
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone020
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone020/Bone021
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Bone020/Bone021/Bone022
+        weight: 1
+      - path: Bone001/Bone014
+        weight: 1
+      - path: Bone001/Bone014/Bone015
+        weight: 1
+      - path: Bone001/Bone014/Bone015/Bone016
+        weight: 1
+      - path: Bone001/Bone023
+        weight: 1
+      - path: Bone001/Bone023/Bone025
+        weight: 1
+      - path: Bone001/Bone023/Bone025/Bone024
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
