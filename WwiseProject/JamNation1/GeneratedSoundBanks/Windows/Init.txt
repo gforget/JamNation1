@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3258538082	Music_Biomes			\Default Work Unit\Music_Biomes	
+
+State	ID	Name	State Group			Notes
+	219304270	Jungle	Music_Biomes			
+	513139656	Mountain	Music_Biomes			
+	748895195	None	Music_Biomes			
+	2126142572	Grotto	Music_Biomes			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	69765534	Musique			\Default Work Unit\Master Audio Bus\Musique	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
@@ -8,4 +17,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
 
