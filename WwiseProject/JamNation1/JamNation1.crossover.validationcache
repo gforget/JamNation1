@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1964240256" DateHigh="30603114"/>
+	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="511696768" DateHigh="30603342"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Actor-Mixer Hierarchy\Factory Crankcase REV.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1964240256" DateHigh="30603114"/>
@@ -13,7 +13,7 @@
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Default Work Unit.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Factory Altiverb - Outdoor and More.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Factory Auro Headphone.wwu" DateLow="1964240256" DateHigh="30603114"/>
-	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Factory Convolution Reverb Effects.wwu" DateLow="1964240256" DateHigh="30603114"/>
+	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Factory Convolution Reverb Effects.wwu" DateLow="2520454016" DateHigh="30603304"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Factory Effects.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Factory iZotope Box Modeler.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Factory iZotope Delay.wwu" DateLow="1964240256" DateHigh="30603114"/>
@@ -23,20 +23,20 @@
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Effects\Factory McDSP Effects.wwu" DateLow="1964240256" DateHigh="30603114"/>
-	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Events\Default Work Unit.wwu" DateLow="1964240256" DateHigh="30603114"/>
+	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Events\Default Work Unit.wwu" DateLow="511696768" DateHigh="30603342"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Game Parameters\Default Work Unit.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1964240256" DateHigh="30603114"/>
-	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\JamNation1.crossover.wsettings" DateLow="1910973568" DateHigh="30603167"/>
+	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\JamNation1.crossover.wsettings" DateLow="601696768" DateHigh="30603342"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\JamNation1.wproj" DateLow="1964240256" DateHigh="30603114"/>
-	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1964240256" DateHigh="30603114"/>
+	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="511696768" DateHigh="30603342"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Mixing Sessions\Default Work Unit.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Modulators\Default Work Unit.wwu" DateLow="1964240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Presets\Default Work Unit.wwu" DateLow="1984240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Queries\Default Work Unit.wwu" DateLow="1984240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Queries\Factory Queries.wwu" DateLow="1984240256" DateHigh="30603114"/>
-	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\SoundBanks\Default Work Unit.wwu" DateLow="1984240256" DateHigh="30603114"/>
-	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1984240256" DateHigh="30603114"/>
+	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\SoundBanks\Default Work Unit.wwu" DateLow="495944576" DateHigh="30603319"/>
+	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Soundcaster Sessions\Default Work Unit.wwu" DateLow="511696768" DateHigh="30603342"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\States\Default Work Unit.wwu" DateLow="1984240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Switches\Default Work Unit.wwu" DateLow="1984240256" DateHigh="30603114"/>
 	<ValidationCacheItem File="Y:\JamNation1\WwiseProject\JamNation1\Triggers\Default Work Unit.wwu" DateLow="1984240256" DateHigh="30603114"/>

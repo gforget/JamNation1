@@ -3,7 +3,15 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{23C8CB3C-C917-48F9-806A-0888C0397D71}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="Musique" ID="{6CFC9D05-CB3D-4E48-924E-1F8AAC5C1A42}"/>
+						<Bus Name="AMB" ID="{6AE55F58-C776-4933-81C4-8F743E181739}"/>
+						<Bus Name="SFX" ID="{045E42A7-48CA-4BB9-8815-A265CF716CCE}"/>
+						<AuxBus Name="Reverb" ID="{0C81BF86-F9CC-433D-9C9A-A794EB177FFE}"/>
+						<Bus Name="VO" ID="{375B0126-75BB-4E3B-B52E-BE1291958490}"/>
+					</ChildrenList>
+				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>

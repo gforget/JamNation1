@@ -10,16 +10,48 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="P1_Oops" ID="{846FDAEB-43EE-4247-98A1-7FD149B86D2C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P2_Dying" ID="{588298B3-D7BD-4E3A-B7E3-CB5C0DA3EABA}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Mountain_Jungle" ID="{B6067089-87D7-4FBE-B3A2-B4F9B42D8FD7}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P1_Dying" ID="{A66E99FE-1E19-4649-844E-77DA22C6BC7C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P2_Jump" ID="{F6A0316C-989E-4B26-9CFE-2AFDEA872E7C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Jungle_Cave" ID="{1285C532-0FA8-4A66-8B33-7ED4B0AE5C70}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="P1_Jump" ID="{B1304919-B6C6-40D7-94A1-680A988E10F9}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P2_Oops" ID="{CD1D3FD7-765E-4252-8E28-6080EBE3679A}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Cave_Beach" ID="{CBFC33E7-DF82-40E0-BCBC-3C1AEC598FDF}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P1_Throw" ID="{D11E638F-B902-4085-8975-39CB8C820AB0}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P2_Throw" ID="{7E649A48-099D-49E1-9FB1-1AF2E6184BD6}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
