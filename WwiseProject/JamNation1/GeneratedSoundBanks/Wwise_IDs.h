@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID AMBIANCE_START = 778605252U;
         static const AkUniqueID CAVE_BEACH = 1201886138U;
+        static const AkUniqueID FS_PLAYERS = 1240468467U;
         static const AkUniqueID JUNGLE_CAVE = 2566409294U;
         static const AkUniqueID MOUNTAIN_JUNGLE = 3833726988U;
         static const AkUniqueID P1_DYING = 3419501818U;
@@ -25,7 +26,25 @@ namespace AK
         static const AkUniqueID P2_JUMP = 2155174042U;
         static const AkUniqueID P2_OOPS = 1372435655U;
         static const AkUniqueID P2_THROW = 1424313346U;
+        static const AkUniqueID SFX_EGGS_BREAKING = 3459086025U;
+        static const AkUniqueID SFX_EGGS_CATCHING = 1220082869U;
+        static const AkUniqueID SFX_EGGS_IMPACT = 544795564U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace SURFACES
+        {
+            static const AkUniqueID GROUP = 3714303081U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRASS = 4248645337U;
+            } // namespace SWITCH
+        } // namespace SURFACES
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
