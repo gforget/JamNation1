@@ -52,17 +52,6 @@
 				</Event>
 				<Event Name="Jungle_Cave" ID="{1285C532-0FA8-4A66-8B33-7ED4B0AE5C70}">
 					<ChildrenList>
-						<Action Name="Play" ID="{B06B1749-E67D-4284-AA8B-86FCB8D3EE8E}" ShortID="225933175" Type="Play" Scope="One" Global="false">
-							<PropertyList>
-								<Property Name="FadeCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ElementList>
-								<Element ID="{927CACDB-0F36-4DAC-A175-5B27160A7EAC}" Global="false">
-									<ObjectRef Name="AMB_Grotto" ID="{857FB60C-9B69-4B48-9976-792E0D6B221B}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
-								</Element>
-							</ElementList>
-						</Action>
 						<Action Name="Set Voice Low-pass Filter" ID="{8F32A1DE-44EB-4B41-8939-CDEF78BB3F15}" ShortID="303192876" Type="ChangeLPF" Scope="One" Global="false">
 							<PropertyList>
 								<Property Name="FadeCurve" Type="int16" Value="1"/>
@@ -72,6 +61,34 @@
 							<ElementList>
 								<Element ID="{A2669D6F-5BAF-496C-9D17-80EE6D576C4D}" Global="false">
 									<ObjectRef Name="AMB_Jungle" ID="{DC86678C-0665-4EBC-B153-51B294DE526B}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{B06B1749-E67D-4284-AA8B-86FCB8D3EE8E}" ShortID="225933175" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{927CACDB-0F36-4DAC-A175-5B27160A7EAC}" Global="false">
+									<ObjectRef Name="AMB_Grotto" ID="{FE6FF87E-594A-4086-BFB8-5273BD817553}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Bus Volume" ID="{F2F72412-36CD-455E-B4D5-7969A1C5D59C}" ShortID="87625290" Type="ChangeBusVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{7E37B1E2-D3CA-4F7E-ABA7-7C8E5D2DE9F5}" Global="true">
+									<ObjectRef Name="Reverb2" ID="{BA3E1943-AB41-4DD0-AB75-910E037F5AFC}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{8B0F24B8-D1CF-4B4E-98C3-68CE93F9E80B}" ShortID="318750315" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E227D547-3AE2-4F97-9652-FF66E5460B3E}" Global="false">
+									<ObjectRef Name="SFX_Roars" ID="{FF716497-4D6C-4381-8908-1BF79045BE16}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -86,7 +103,7 @@
 							</PropertyList>
 							<ElementList>
 								<Element ID="{542969DB-62F5-4976-AE2C-2D27947FF0F8}" Global="false">
-									<ObjectRef Name="AMB_Grotto" ID="{857FB60C-9B69-4B48-9976-792E0D6B221B}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+									<ObjectRef Name="AMB_Grotto" ID="{FE6FF87E-594A-4086-BFB8-5273BD817553}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -109,6 +126,13 @@
 							<ElementList>
 								<Element ID="{D9261A20-4A68-4202-9AD0-4F0C12FFD3F2}" Global="false">
 									<ObjectRef Name="AMB_Village" ID="{60F9841C-F6FC-455E-8E70-8EB787F3D04C}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{393D2A05-B162-4F38-9EED-A0D7E8F467C3}" ShortID="651477846" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{82047DC9-B1EF-42F0-A3F0-52B24CC462B8}" Global="false">
+									<ObjectRef Name="SFX_Roars" ID="{FF716497-4D6C-4381-8908-1BF79045BE16}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -398,7 +422,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Effect_Cave" ID="{29D10D56-8B66-41A3-B6C1-A5096D6BBCE1}"/>
 				<Event Name="MUS_Level_Jungle" ID="{B6047848-48A2-42B4-8B05-415A07F8AF3D}">
 					<ChildrenList>
 						<Action Name="Set State" ID="{388CB90F-082A-4D7D-9F56-B60A669A34C9}" ShortID="757624225" Type="SetState" Scope="All" Global="true">

@@ -10,12 +10,8 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="P1_Oops" ID="{846FDAEB-43EE-4247-98A1-7FD149B86D2C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<ObjectRef Name="MUS_Level_Play" ID="{94B841D2-45B1-453B-87D3-0CE20FB5F4FC}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="P2_Dying" ID="{588298B3-D7BD-4E3A-B7E3-CB5C0DA3EABA}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
-							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="SFX_Eggs_Breaking" ID="{6B6CDEED-9337-4EE6-9D6C-66A02F44E6A1}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
@@ -30,19 +26,15 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="P1_Dying" ID="{A66E99FE-1E19-4649-844E-77DA22C6BC7C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<ObjectRef Name="MUS_Level_Jungle" ID="{B6047848-48A2-42B4-8B05-415A07F8AF3D}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="1" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="P2_Jump" ID="{F6A0316C-989E-4B26-9CFE-2AFDEA872E7C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
-							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="FS_Players" ID="{7DF49B6A-1E15-40B8-BF68-251550A67ED4}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MUS_Level_Play" ID="{94B841D2-45B1-453B-87D3-0CE20FB5F4FC}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<ObjectRef Name="SFX_Eggs_Impact" ID="{C8558D8D-70A0-40FA-B768-A2EFB50B1DDD}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
@@ -50,40 +42,48 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="P1_Jump" ID="{B1304919-B6C6-40D7-94A1-680A988E10F9}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<ObjectRef Name="MUS_Level_Grotto" ID="{CF887FAB-696D-481B-8FA8-02EDA8642A9E}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="P2_Oops" ID="{CD1D3FD7-765E-4252-8E28-6080EBE3679A}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
-							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="SFX_Eggs_Catching" ID="{219B6880-A5BA-4431-BF9D-07B8A061EE34}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MUS_Level_Jungle" ID="{B6047848-48A2-42B4-8B05-415A07F8AF3D}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
-							<Position X="2" Y="4"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Cave_Beach" ID="{CBFC33E7-DF82-40E0-BCBC-3C1AEC598FDF}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="P1_Oops" ID="{846FDAEB-43EE-4247-98A1-7FD149B86D2C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P1_Jump" ID="{B1304919-B6C6-40D7-94A1-680A988E10F9}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P2_Dying" ID="{588298B3-D7BD-4E3A-B7E3-CB5C0DA3EABA}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P2_Oops" ID="{CD1D3FD7-765E-4252-8E28-6080EBE3679A}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P1_Dying" ID="{A66E99FE-1E19-4649-844E-77DA22C6BC7C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="P1_Throw" ID="{D11E638F-B902-4085-8975-39CB8C820AB0}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
-							<Position X="3" Y="1"/>
+							<Position X="5" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P2_Jump" ID="{F6A0316C-989E-4B26-9CFE-2AFDEA872E7C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="5" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="P2_Throw" ID="{7E649A48-099D-49E1-9FB1-1AF2E6184BD6}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
-							<Position X="3" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="SFX_Eggs_Impact" ID="{C8558D8D-70A0-40FA-B768-A2EFB50B1DDD}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
-							<Position X="3" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="MUS_Level_Grotto" ID="{CF887FAB-696D-481B-8FA8-02EDA8642A9E}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
-							<Position X="3" Y="4"/>
+							<Position X="5" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -129,10 +129,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Jungle" ID="{A6EF2F48-9ADB-4F33-9078-A4C2B9ABEC53}"/>
+						<CurrentStateRef Name="Grotto" ID="{BE2C6DFB-9FBD-4D65-809A-39F8EC45C47E}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Grass" ID="{70ED438F-2F36-4E1B-A3A2-99F80D25A96D}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{129C2BEC-8588-42D8-B286-9C32521A2734}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
