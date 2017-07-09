@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
@@ -10,7 +10,36 @@ public class GameManager : MonoBehaviour {
 	//0 = mountain, 1 = jungle, 2 = cavern, 3 = beach;
 	public int biome;
 
+    public GameObject EggPrefab;
+    public List<EggController> eggControllers;
+
+    public void AddEgg(EggController egg)
+    {
+        eggControllers.Add(egg);
+        Debug.Log(eggControllers.Count);
+    }
+    public void RemoveEgg(EggController egg)
+    {
+        float zPosition = egg.transform.position.z;
+        eggControllers.Remove(egg);
+
+        Debug.Log(eggControllers.Count);
+
+        if (eggControllers.Count == 0)
+        {
+            GameObject eggGo = Instantiate(EggPrefab);
+            Vector3 spawnPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, zPosition);
+            eggGo.transform.position = spawnPosition;
+
+            eggGo.GetComponent<EggController>().IsTaken = false;
+            eggGo.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ;
+            eggGo.GetComponent<Rigidbody>().useGravity = true;
+            
+        }
+    }
+
 	string[] ambianceNames;
+	string[] musiqueNames;
 
 	public bool cavernLight;
 	public Light dirLight;
@@ -22,12 +51,19 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Start() {
+		musiqueNames = new string[4];
+		musiqueNames[0] = "MUS_Level_Play";
+		musiqueNames[1] = "MUS_Level_Jungle";
+		musiqueNames[2] = "MUS_Level_Grotto";
+		musiqueNames[3] = "MUS_Level_Jungle";
+
 		ambianceNames = new string[4];
 		ambianceNames[0] = "Ambiance_start";
 		ambianceNames[1] = "Mountain_Jungle";
 		ambianceNames[2] = "Jungle_Cave";
 		ambianceNames[3] = "Cave_Beach";
 		SwitchBiome();
+
 	}
 	
 	// Update is called once per frame
@@ -36,6 +72,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void SwitchBiome() {
+		AkSoundEngine.PostEvent(musiqueNames[biome], gameObject);
 		AkSoundEngine.PostEvent(ambianceNames[biome], gameObject);
 		biome++;
 	}

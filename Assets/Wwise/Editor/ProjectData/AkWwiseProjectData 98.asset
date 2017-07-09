@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574436500e6874644be846966cfed906, type: 3}
+  m_Name: AkWwiseProjectData 98
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+<<<<<<< HEAD
+  EventWwu: []
+  AuxBusWwu: []
+  StateWwu: []
+  SwitchWwu: []
+  BankWwu: []
+=======
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}'
+    m_lastTimePsrt1: 386488837
+    m_lastTimePart2: -1999321379
+    List:
+    - Name: Ambiance_start
+      Path: Default Work Unit\Ambiance_start
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiance_start
+        ObjectType: 3
+      ID: 778605252
+      Guid: 3b7181fed40aa94dbb54ebe6d4b9d7bf
+      maxAttenuation: 0
+    - Name: Cave_Beach
+      Path: Default Work Unit\Cave_Beach
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cave_Beach
+        ObjectType: 3
+      ID: 1201886138
+      Guid: e733fccb82dfe040bcbc3c1aec598fdf
+      maxAttenuation: 0
+    - Name: FS_Players
+      Path: Default Work Unit\FS_Players
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FS_Players
+        ObjectType: 3
+      ID: 1240468467
+      Guid: 6a9bf47d151eb840bf68251550a67ed4
+      maxAttenuation: 0
+    - Name: Jungle_Cave
+      Path: Default Work Unit\Jungle_Cave
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Jungle_Cave
+        ObjectType: 3
+      ID: -1728558002
+      Guid: 32c58512a80f664a8b337ed4b0ae5c70
+      maxAttenuation: 0
+    - Name: Mountain_Jungle
+      Path: Default Work Unit\Mountain_Jungle
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mountain_Jungle
+        ObjectType: 3
+      ID: -461240308
+      Guid: 897006b6d787be4fb3a2b4f9b42d8fd7
+      maxAttenuation: 0
+    - Name: P1_Dying
+      Path: Default Work Unit\P1\P1_Dying
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P1
+        ObjectType: 4
+      - ElementName: P1_Dying
+        ObjectType: 3
+      ID: -875465478
+      Guid: fe996ea6191e4946844e77da22c6bc7c
+      maxAttenuation: 0
+    - Name: P1_Jump
+      Path: Default Work Unit\P1\P1_Jump
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P1
+        ObjectType: 4
+      - ElementName: P1_Jump
+        ObjectType: 3
+      ID: 150832419
+      Guid: 194930b1c6b6d74094a1680a988e10f9
+      maxAttenuation: 0
+    - Name: P1_Oops
+      Path: Default Work Unit\P1\P1_Oops
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P1
+        ObjectType: 4
+      - ElementName: P1_Oops
+        ObjectType: 3
+      ID: 1912722926
+      Guid: ebda6f84ee43474298a17fd149b86d2c
+      maxAttenuation: 0
+    - Name: P1_Throw
+      Path: Default Work Unit\P1\P1_Throw
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P1
+        ObjectType: 4
+      - ElementName: P1_Throw
+        ObjectType: 3
+      ID: 1022741657
+      Guid: 8f631ed102b98540897539cb8c820ab0
+      maxAttenuation: 0
+    - Name: P2_Dying
+      Path: Default Work Unit\P2\P2_Dying
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P2
+        ObjectType: 4
+      - ElementName: P2_Dying
+        ObjectType: 3
+      ID: 104172609
+      Guid: b3988258bdd73a4eb7e3cb5c0da3eaba
+      maxAttenuation: 0
+    - Name: P2_Jump
+      Path: Default Work Unit\P2\P2_Jump
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P2
+        ObjectType: 4
+      - ElementName: P2_Jump
+        ObjectType: 3
+      ID: -2139793254
+      Guid: 6c31a0f69e98264b9cfe2afdea872e7c
+      maxAttenuation: 0
+    - Name: P2_Oops
+      Path: Default Work Unit\P2\P2_Oops
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P2
+        ObjectType: 4
+      - ElementName: P2_Oops
+        ObjectType: 3
+      ID: 1372435655
+      Guid: d73f1dcd5e7652428e286080ebe3679a
+      maxAttenuation: 0
+    - Name: P2_Throw
+      Path: Default Work Unit\P2\P2_Throw
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: P2
+        ObjectType: 4
+      - ElementName: P2_Throw
+        ObjectType: 3
+      ID: 1424313346
+      Guid: 489a647e9d09e1499fb11af2e6184bd6
+      maxAttenuation: 0
+    - Name: SFX_Eggs_Breaking
+      Path: Default Work Unit\SFX_Eggs_Breaking
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX_Eggs_Breaking
+        ObjectType: 3
+      ID: -835881271
+      Guid: edde6c6b3793e64e9d6c66a02f44e6a1
+      maxAttenuation: 0
+    - Name: SFX_Eggs_Catching
+      Path: Default Work Unit\SFX_Eggs_Catching
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX_Eggs_Catching
+        ObjectType: 3
+      ID: 1220082869
+      Guid: 80689b21baa53144bf9d07b8a061ee34
+      maxAttenuation: 0
+    - Name: SFX_Eggs_Impact
+      Path: Default Work Unit\SFX_Eggs_Impact
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX_Eggs_Impact
+        ObjectType: 3
+      ID: 544795564
+      Guid: 8d8d55c8a070fa40b768a2efb50b1ddd
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{23C8CB3C-C917-48F9-806A-0888C0397D71}'
+    m_lastTimePsrt1: 288093855
+    m_lastTimePart2: -1999321481
+    List:
+    - Name: Reverb
+      Path: Default Work Unit\Master Audio Bus\Reverb
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Reverb
+        ObjectType: 1
+      ID: 348963605
+      Guid: 86bf810cccf93d439c9aa794eb177ffe
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{CEEC1D84-B018-48F1-A40F-70F5EBE1BDB8}'
+    m_lastTimePsrt1: -610534724
+    m_lastTimePart2: -1999322083
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{47F46374-2122-4C73-823B-07E0165F5315}'
+    m_lastTimePsrt1: 392404878
+    m_lastTimePart2: -1999321379
+    List:
+    - Name: Surfaces
+      Path: Default Work Unit\Surfaces
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Surfaces
+        ObjectType: 11
+      ID: -580664215
+      Guid: e159b9593e1a064b9fad8522a052f83c
+      values:
+      - Dirt
+      - Grass
+      ValueIcons:
+      - ElementName: Dirt
+        ObjectType: 10
+      - ElementName: Grass
+        ObjectType: 10
+      valueIDs: eac1de82d92e3dfd
+      ValueGuids:
+      - bytes: ec2b9c128885d842b2869c32521a2734
+      - bytes: 8f43ed70362f1b4ea3a299f80d25a96d
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{9CBBABD4-E769-4E5E-AC7D-B66EBC1B74E6}'
+    m_lastTimePsrt1: 392394754
+    m_lastTimePart2: -1999321379
+    List:
+    - Name: JamNATION1
+      Path: Default Work Unit\JamNATION1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: JamNATION1
+        ObjectType: 7
+      ID: 928029035
+      Guid: 3b2c8eb259bbe041aea53c33cefb18e6
+>>>>>>> 1172280b57c705b61c20a087255c19d669a4a46a
+  ExpandedItems: []
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95

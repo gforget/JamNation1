@@ -71,6 +71,11 @@ public class RunnerController : MonoBehaviour
 
             if (m_CharacterState == CharacterState.Death)
             {
+                if (_prevState == CharacterState.withEgg)
+                {
+                    Destroy(m_EggController.gameObject);
+                }
+
                 AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Dying", gameObject);
                 StartCoroutine(RespawnCoroutine());
             }

@@ -9,7 +9,7 @@ public class BiomeTriggerScript : MonoBehaviour {
 	void Start() {
 		thisCollider = GetComponent<BoxCollider>();
 	}
-
+ 
 	void OnTriggerEnter(Collider col) {
 				if (col.CompareTag("Player")) {
 					GameManager.instance.SwitchBiome();
