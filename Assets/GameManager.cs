@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour {
 	public bool cavernLight;
 	public Light dirLight;
 
+	public Skybox skybox;
+
 	// Use this for initialization
 	void Awake () 
 	{
@@ -44,8 +46,12 @@ public class GameManager : MonoBehaviour {
 		yield return new WaitForEndOfFrame();
 		if (cavernLight == true) {
 			dirLight.DOIntensity(0, 0.50f);
+			RenderSettings.ambientIntensity = 0.1f;
+			RenderSettings.reflectionIntensity = 0.1f;
 		} else {
 			dirLight.DOIntensity(1, 0.50f);
+			RenderSettings.ambientIntensity = 1f;
+			RenderSettings.reflectionIntensity = 1f;
 		}
 	}
 }
