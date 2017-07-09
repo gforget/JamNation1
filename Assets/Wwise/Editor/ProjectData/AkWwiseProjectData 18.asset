@@ -16,8 +16,13 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}'
+<<<<<<< HEAD
     m_lastTimePsrt1: 283410540
     m_lastTimePart2: -1999321481
+=======
+    m_lastTimePsrt1: 317623258
+    m_lastTimePart2: -1999321482
+>>>>>>> 3e998a3d7768c732939f70d9912992242fe37889
     List:
     - Name: Ambiance_start
       Path: Default Work Unit\Ambiance_start
@@ -143,8 +148,13 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{23C8CB3C-C917-48F9-806A-0888C0397D71}'
+<<<<<<< HEAD
     m_lastTimePsrt1: 288093855
     m_lastTimePart2: -1999321481
+=======
+    m_lastTimePsrt1: 321972822
+    m_lastTimePart2: -1999321482
+>>>>>>> 3e998a3d7768c732939f70d9912992242fe37889
     List:
     - Name: Reverb
       Path: Default Work Unit\Master Audio Bus\Reverb
@@ -161,22 +171,37 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{CEEC1D84-B018-48F1-A40F-70F5EBE1BDB8}'
+<<<<<<< HEAD
     m_lastTimePsrt1: -610534724
     m_lastTimePart2: -1999322083
+=======
+    m_lastTimePsrt1: -976566498
+    m_lastTimePart2: -1999321504
+>>>>>>> 3e998a3d7768c732939f70d9912992242fe37889
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{47F46374-2122-4C73-823B-07E0165F5315}'
+<<<<<<< HEAD
     m_lastTimePsrt1: -610554742
     m_lastTimePart2: -1999322083
+=======
+    m_lastTimePsrt1: -976546480
+    m_lastTimePart2: -1999321504
+>>>>>>> 3e998a3d7768c732939f70d9912992242fe37889
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9CBBABD4-E769-4E5E-AC7D-B66EBC1B74E6}'
+<<<<<<< HEAD
     m_lastTimePsrt1: 290970877
     m_lastTimePart2: -1999321481
+=======
+    m_lastTimePsrt1: 328308378
+    m_lastTimePart2: -1999321482
+>>>>>>> 3e998a3d7768c732939f70d9912992242fe37889
     List:
     - Name: JamNATION1
       Path: Default Work Unit\JamNATION1
