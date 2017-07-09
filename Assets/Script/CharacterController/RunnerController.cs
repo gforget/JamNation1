@@ -5,6 +5,8 @@ using XInputDotNetPure;
 
 public class RunnerController : MonoBehaviour
 {
+    public Animator m_Animator;
+
     public enum CharacterState
     {
         withEgg = 0,
@@ -47,7 +49,7 @@ public class RunnerController : MonoBehaviour
 
     private CharacterState m_CharacterState;
 
-    Animator m_Animator;
+    
     CharacterController m_Controller;
 
     private Vector3 m_Direction;
@@ -81,8 +83,8 @@ public class RunnerController : MonoBehaviour
 
         if (m_Gamepad.GetButtonDown("X"))
         {
-            characterState = characterState == CharacterState.withEgg ? CharacterState.withoutEgg : CharacterState.withEgg;
-
+            //characterState = characterState == CharacterState.withEgg ? CharacterState.withoutEgg : CharacterState.withEgg;
+            //AkSoundEngine.PostEvent("Ambiance_start", gameObject);
         }
 
         if (m_Controller.isGrounded && m_YVelocity < 0)
@@ -90,8 +92,9 @@ public class RunnerController : MonoBehaviour
             m_YVelocity = 0;
         }
 
-        Debug.Log(m_CharacterState);
     }
+
+    float lookAtDirection = 1;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -101,8 +104,22 @@ public class RunnerController : MonoBehaviour
         m_XVelocity = m_Gamepad.GetStick_L().X * m_SpeedX;
         m_YVelocity -= gravity;
 
-        m_Direction = (transform.right * m_XVelocity) + (transform.up*m_YVelocity);
+        if (m_XVelocity != 0)
+        {
+            if (m_XVelocity > 0)
+                lookAtDirection = 1;
+            else
+                lookAtDirection = -1;
+        }
+
+        transform.rotation = Quaternion.LookRotation(Camera.main.transform.right * lookAtDirection);
+        m_Direction = (transform.forward * Mathf.Abs(m_XVelocity)) + (transform.up*m_YVelocity);
+
         m_Controller.Move(m_Direction*Time.deltaTime);
+
+        m_Animator.SetBool();
+        m_Animator.SetBool();
+        m_Animator.SetFloat();
     }
 
 }
