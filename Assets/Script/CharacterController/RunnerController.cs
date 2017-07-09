@@ -103,8 +103,18 @@ public class RunnerController : MonoBehaviour
         m_BeginRotation = m_EggController.transform.localRotation;
 
         StartCoroutine(EggHitDetection());
+        StartCoroutine(DetectConnected());
     }
     
+    IEnumerator DetectConnected()
+    {
+        yield return new WaitForEndOfFrame();
+        if (m_Gamepad.IsConnected == false)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     bool m_HavePressA;
     bool m_HaveBeenVisible = false;
     bool m_JumpAirDelayed
@@ -131,6 +141,7 @@ public class RunnerController : MonoBehaviour
 
     private void Update()
     {
+        
         if (characterState == CharacterState.Death) return;
 
         if (m_Gamepad.GetButtonDown("A") && (m_Controller.isGrounded || m_JumpAirDelayed))
