@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="SFX_Eggs_Breaking" ID="{6B6CDEED-9337-4EE6-9D6C-66A02F44E6A1}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Mountain_Jungle" ID="{B6067089-87D7-4FBE-B3A2-B4F9B42D8FD7}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -28,6 +32,10 @@
 						<Module>
 							<ObjectRef Name="P2_Jump" ID="{F6A0316C-989E-4B26-9CFE-2AFDEA872E7C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FS_Players" ID="{7DF49B6A-1E15-40B8-BF68-251550A67ED4}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Jungle_Cave" ID="{1285C532-0FA8-4A66-8B33-7ED4B0AE5C70}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
@@ -42,6 +50,10 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="SFX_Eggs_Catching" ID="{219B6880-A5BA-4431-BF9D-07B8A061EE34}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Cave_Beach" ID="{CBFC33E7-DF82-40E0-BCBC-3C1AEC598FDF}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -52,6 +64,10 @@
 						<Module>
 							<ObjectRef Name="P2_Throw" ID="{7E649A48-099D-49E1-9FB1-1AF2E6184BD6}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
 							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Eggs_Impact" ID="{C8558D8D-70A0-40FA-B768-A2EFB50B1DDD}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}"/>
+							<Position X="3" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -97,7 +113,9 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Grass" ID="{70ED438F-2F36-4E1B-A3A2-99F80D25A96D}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
