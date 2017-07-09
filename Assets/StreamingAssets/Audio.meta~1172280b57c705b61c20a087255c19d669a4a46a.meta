@@ -1,6 +1,12 @@
 fileFormatVersion: 2
-guid: 7953a4852bd886642b0c9188a76e4b05
-timeCreated: 1499622018
+<<<<<<< HEAD:Assets/StreamingAssets/Audio.meta~1172280b57c705b61c20a087255c19d669a4a46a.meta
+guid: e1b031f157d20ae429fd79487d0b7870
+timeCreated: 1499625596
+=======
+guid: 2f87a1e4879efda4681d81937ffaf5b8
+folderAsset: yes
+timeCreated: 1499545289
+>>>>>>> b1e3dc614e890aba3735ca685f170c841250fa51:Assets/StreamingAssets/Audio.meta
 licenseType: Free
 DefaultImporter:
   userData: 

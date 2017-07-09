@@ -16,8 +16,13 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1592734538
+    m_lastTimePart2: -1999321378
+=======
     m_lastTimePsrt1: 1374600657
     m_lastTimePart2: -1999321374
+>>>>>>> b1e3dc614e890aba3735ca685f170c841250fa51
     List:
     - Name: Ambiance_start
       Path: Default Work Unit\Ambiance_start
@@ -199,8 +204,13 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{23C8CB3C-C917-48F9-806A-0888C0397D71}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 321972822
+    m_lastTimePart2: -1999321482
+=======
     m_lastTimePsrt1: 147505441
     m_lastTimePart2: -1999321476
+>>>>>>> b1e3dc614e890aba3735ca685f170c841250fa51
     List:
     - Name: Reverb
       Path: Default Work Unit\Master Audio Bus\Reverb
@@ -217,15 +227,25 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{CEEC1D84-B018-48F1-A40F-70F5EBE1BDB8}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: -976566498
+    m_lastTimePart2: -1999321504
+=======
     m_lastTimePsrt1: 79471547
     m_lastTimePart2: -1999321708
+>>>>>>> b1e3dc614e890aba3735ca685f170c841250fa51
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{47F46374-2122-4C73-823B-07E0165F5315}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1601323542
+    m_lastTimePart2: -1999321378
+=======
     m_lastTimePsrt1: 1384301212
     m_lastTimePart2: -1999321374
+>>>>>>> b1e3dc614e890aba3735ca685f170c841250fa51
     List:
     - Name: Surfaces
       Path: Default Work Unit\Surfaces
@@ -252,8 +272,13 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9CBBABD4-E769-4E5E-AC7D-B66EBC1B74E6}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 1601226672
+    m_lastTimePart2: -1999321378
+=======
     m_lastTimePsrt1: 1384231208
     m_lastTimePart2: -1999321374
+>>>>>>> b1e3dc614e890aba3735ca685f170c841250fa51
     List:
     - Name: JamNATION1
       Path: Default Work Unit\JamNATION1

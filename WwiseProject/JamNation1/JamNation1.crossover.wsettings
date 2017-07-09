@@ -19,17 +19,26 @@
 				<Property Name="GenerateSoundBanks\SelectedPlatforms" Type="string" Value="gRy2RIz+00yoeLWQ/4pQ+Q=="/>
 				<Property Name="GenerateSoundBanks\SelectedSoundBanks" Type="string" Value="OyyOslm74EGupTwzzvsY5g=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Interactive Music\{07D5A0A1-1200-4711-AF86-2081560858BC} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPxog1lRmuiFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\{262E86DC-33B1-4CBA-98C3-FB050843033B} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPxog1lRmuiFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\WatchMgr\GameSyncWatches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\Watches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="5"/>
+				<Property Name="Music Transition List\{093BDF02-AAFF-4D23-BC3C-5B8B602ABB36}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{258BFFBF-CC1C-4287-B3A4-E0395A738182}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{4F4EF8A0-AED3-4133-9D60-CA6E1786ADB5}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{65B9C643-EE80-44EE-9AE7-D9405FA1E29B}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{A65469EB-037B-457C-9404-963A89316C72}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{B7C01A25-0A83-4F0E-B245-DB35D46C2ED6}\Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{BB470E4F-F5AA-4F0B-AB39-2BA2EA8A9F1E}\Expand States" Type="string" Value=""/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="True"/>
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\Expanded_12_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\Expanded_12_1" Type="string" Value="2zcF/Px9Rki3OKJjLM+kVALfOwn/qiNNvDxbi2AquzY="/>
 				<Property Name="ProjectExplorer\Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_15_1" Type="string" Value=""/>
@@ -37,12 +46,12 @@
 				<Property Name="ProjectExplorer\Expanded_17_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_18_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_19_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\Expanded_1_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ8zzLyCMXyflIgGoIiMA5fXE="/>
 				<Property Name="ProjectExplorer\Expanded_20_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value="/3nrvtbyVkqjZOeAL09gVVS2rEBmRX9KuVFtVWaCSDEH/VFEm89vT7e6xgKrR4PT"/>
+				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value="OyDnGqBPIkGb8EDomyABt6DGCd7BYYBBsGPdh3mQM81Oi0eDkNTWR5f78x807cLgwCjSJ9jVpUi7wudRAOnXjv95677W8lZKo2TngC9PYFVUtqxAZkV/SrlRbVVmgkgx/MDCw9slgE6KZnZNoD/A6wf9UUSbz29Pt7rGAqtHg9M="/>
 				<Property Name="ProjectExplorer\Expanded_3_1" Type="string" Value="6t4ZfrYZt0GdcV96fXIcSw=="/>
 				<Property Name="ProjectExplorer\Expanded_4_1" Type="string" Value="4Vm5WT4aBkufrYUioFL4PHRj9EciIXNMgjsH4BZfUxU="/>
-				<Property Name="ProjectExplorer\Expanded_5_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\Expanded_5_1" Type="string" Value="yNogQxyNYUalsWA9sAxyxIQd7M4YsPFIpA9w9evhvbg="/>
 				<Property Name="ProjectExplorer\Expanded_6_1" Type="string" Value="1Ku7nGnnXk6sfbZuvBt05g=="/>
 				<Property Name="ProjectExplorer\Expanded_7_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_8_1" Type="string" Value=""/>

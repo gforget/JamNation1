@@ -15,9 +15,13 @@ namespace AK
     {
         static const AkUniqueID AMBIANCE_START = 778605252U;
         static const AkUniqueID CAVE_BEACH = 1201886138U;
+        static const AkUniqueID EFFECT_CAVE = 1058671230U;
         static const AkUniqueID FS_PLAYERS = 1240468467U;
         static const AkUniqueID JUNGLE_CAVE = 2566409294U;
         static const AkUniqueID MOUNTAIN_JUNGLE = 3833726988U;
+        static const AkUniqueID MUS_LEVEL_GROTTO = 493090309U;
+        static const AkUniqueID MUS_LEVEL_JUNGLE = 1099710263U;
+        static const AkUniqueID MUS_LEVEL_PLAY = 457485834U;
         static const AkUniqueID P1_DYING = 3419501818U;
         static const AkUniqueID P1_JUMP = 150832419U;
         static const AkUniqueID P1_OOPS = 1912722926U;
@@ -29,7 +33,32 @@ namespace AK
         static const AkUniqueID SFX_EGGS_BREAKING = 3459086025U;
         static const AkUniqueID SFX_EGGS_CATCHING = 1220082869U;
         static const AkUniqueID SFX_EGGS_IMPACT = 544795564U;
+        static const AkUniqueID SFX_EGGS_SPEED = 1561691771U;
+        static const AkUniqueID SFX_P3_DYING = 3865666512U;
+        static const AkUniqueID SFX_P3_JUMP = 2705956761U;
+        static const AkUniqueID SFX_P3_OOPS = 2028292196U;
+        static const AkUniqueID SFX_P3_THROW = 1895335531U;
+        static const AkUniqueID SFX_P4_DYING = 3062786871U;
+        static const AkUniqueID SFX_P4_JUMP = 2557209752U;
+        static const AkUniqueID SFX_P4_OOPS = 968454069U;
+        static const AkUniqueID SFX_P4_THROW = 738150556U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSIC_BIOMES
+        {
+            static const AkUniqueID GROUP = 3258538082U;
+
+            namespace STATE
+            {
+                static const AkUniqueID GROTTO = 2126142572U;
+                static const AkUniqueID JUNGLE = 219304270U;
+                static const AkUniqueID MOUNTAIN = 513139656U;
+            } // namespace STATE
+        } // namespace MUSIC_BIOMES
+
+    } // namespace STATES
 
     namespace SWITCHES
     {
