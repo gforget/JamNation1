@@ -6,7 +6,8 @@ public class EggController : MonoBehaviour {
 
     public bool NotUsable = false;
     public float VelocityDestroy = 10.0f;
-    
+    public bool IsTaken = true;
+
     Rigidbody m_RigidBody;
     TrailRenderer TrailRenderer;
 
@@ -17,9 +18,35 @@ public class EggController : MonoBehaviour {
         TrailRenderer = GetComponent<TrailRenderer>();
     }
 
+    bool m_TrailActive
+    {
+        get
+        {
+            return _m_TrailActive;
+        }
+
+        set
+        {
+            bool prevValue = _m_TrailActive;
+            _m_TrailActive = value;
+
+            if (_m_TrailActive == prevValue) return;
+
+            TrailRenderer.enabled = _m_TrailActive;
+
+            if (_m_TrailActive)
+            {
+                //AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Oops", gameObject);
+                //son active trail
+            }
+        }
+    }
+
+    bool _m_TrailActive;
+
     private void Update()
     {
-      TrailRenderer.enabled = m_RigidBody.velocity.magnitude > VelocityDestroy;
+        m_TrailActive = m_RigidBody.velocity.magnitude > VelocityDestroy;
     }
 
     public void LaunchEgg(Vector3 direction)
@@ -31,6 +58,7 @@ public class EggController : MonoBehaviour {
         NotUsable = true;
 
         StartCoroutine(NotUsableRoutine());
+        IsTaken = false;
     }
 
     IEnumerator NotUsableRoutine()
@@ -43,7 +71,12 @@ public class EggController : MonoBehaviour {
     {
         if (m_RigidBody.velocity.magnitude > VelocityDestroy)
         {
-           Destroy(gameObject);
+            AkSoundEngine.PostEvent("SFX_Eggs_Breaking", gameObject);
+            Destroy(gameObject);
+        }
+        else
+        {
+            AkSoundEngine.PostEvent("SFX_Eggs_Impact", gameObject);
         }
     }
 }
