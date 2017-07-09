@@ -1901,6 +1901,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114651626453784714, guid: 7e761fe288801c14b9242bfa393520a2,
+        type: 2}
+      propertyPath: m_JumpWithoutEgg
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114651626453784714, guid: 7e761fe288801c14b9242bfa393520a2,
+        type: 2}
+      propertyPath: m_SpeedWithEgg
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114651626453784714, guid: 7e761fe288801c14b9242bfa393520a2,
+        type: 2}
+      propertyPath: m_JumpWithEgg
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7e761fe288801c14b9242bfa393520a2, type: 2}
   m_IsPrefabParent: 0
