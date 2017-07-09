@@ -11,14 +11,21 @@ public class EggController : MonoBehaviour {
     Rigidbody m_RigidBody;
     TrailRenderer TrailRenderer;
 
-	// Use this for initialization
-	IEnumerator Start ()
+    // Use this for initialization
+    MeshRenderer m_Renderer;
+
+    IEnumerator Start ()
     {
         while (GameManager.instance == null) yield return null;
+        Init();
+    }
 
+    private void Init()
+    {
         m_RigidBody = GetComponent<Rigidbody>();
         TrailRenderer = GetComponent<TrailRenderer>();
 
+        m_Renderer = GetComponent<MeshRenderer>();
         GameManager.instance.AddEgg(this);
     }
 
@@ -45,17 +52,23 @@ public class EggController : MonoBehaviour {
 
             if (_m_TrailActive)
             {
-                //AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Oops", gameObject);
-                //son active trail
+                AkSoundEngine.PostEvent("SFX_Eggs_Speed", gameObject);
             }
         }
     }
 
     bool _m_TrailActive;
+    bool m_HaveBeenVisible = false;
 
     private void Update()
     {
         m_TrailActive = m_RigidBody.velocity.magnitude > VelocityDestroy;
+
+        if (m_Renderer.isVisible) m_HaveBeenVisible = true;
+        if (!m_Renderer.isVisible && m_HaveBeenVisible)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void LaunchEgg(Vector3 direction)
@@ -63,6 +76,7 @@ public class EggController : MonoBehaviour {
         transform.parent = transform.root.parent;
         m_RigidBody.constraints = RigidbodyConstraints.FreezePositionZ;
         m_RigidBody.useGravity = true;
+
         m_RigidBody.AddForce(direction);
         NotUsable = true;
 

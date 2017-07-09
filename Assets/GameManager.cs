@@ -16,17 +16,25 @@ public class GameManager : MonoBehaviour {
     public void AddEgg(EggController egg)
     {
         eggControllers.Add(egg);
+        Debug.Log(eggControllers.Count);
     }
     public void RemoveEgg(EggController egg)
     {
         float zPosition = egg.transform.position.z;
         eggControllers.Remove(egg);
 
+        Debug.Log(eggControllers.Count);
+
         if (eggControllers.Count == 0)
         {
             GameObject eggGo = Instantiate(EggPrefab);
-            Vector3 spawnPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y + 25.0f, zPosition);
+            Vector3 spawnPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, zPosition);
             eggGo.transform.position = spawnPosition;
+
+            eggGo.GetComponent<EggController>().IsTaken = false;
+            eggGo.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ;
+            eggGo.GetComponent<Rigidbody>().useGravity = true;
+            
         }
     }
 
