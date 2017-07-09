@@ -30,14 +30,14 @@ public class PlayerScript : MonoBehaviour {
 	}
 
 	public void TriggerCavern() {
-		if (eyesRend.enabled == true) {
+		//if (eyesRend.enabled == true) {
 			//meshRend.enabled = true;
-			meshRend.materials[0].color = Color.white;
-			eyesRend.enabled = false;
-		} else {
+			//meshRend.materials[0].color = Color.white;
+			//eyesRend.enabled = false;
+		//} else {
 			//meshRend.enabled = false;
-			meshRend.materials[0].color = Color.black;
-			eyesRend.enabled = true;
-		}
+			//meshRend.materials[0].color = Color.black;
+			//eyesRend.enabled = true;
+		//}
 	}
 }
