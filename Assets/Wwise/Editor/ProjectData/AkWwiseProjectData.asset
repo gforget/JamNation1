@@ -16,8 +16,13 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 283410540
+    m_lastTimePart2: -1999321481
+=======
     m_lastTimePsrt1: 317623258
     m_lastTimePart2: -1999321482
+>>>>>>> 7ae02a50e61d0f4f6ff870ee6a84fd8301a01a40
     List:
     - Name: Ambiance_start
       Path: Default Work Unit\Ambiance_start
@@ -143,8 +148,13 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{23C8CB3C-C917-48F9-806A-0888C0397D71}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 288093855
+    m_lastTimePart2: -1999321481
+=======
     m_lastTimePsrt1: 321972822
     m_lastTimePart2: -1999321482
+>>>>>>> 7ae02a50e61d0f4f6ff870ee6a84fd8301a01a40
     List:
     - Name: Reverb
       Path: Default Work Unit\Master Audio Bus\Reverb
@@ -175,8 +185,13 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9CBBABD4-E769-4E5E-AC7D-B66EBC1B74E6}'
+<<<<<<< HEAD
+    m_lastTimePsrt1: 290970877
+    m_lastTimePart2: -1999321481
+=======
     m_lastTimePsrt1: 328308378
     m_lastTimePart2: -1999321482
+>>>>>>> 7ae02a50e61d0f4f6ff870ee6a84fd8301a01a40
     List:
     - Name: JamNATION1
       Path: Default Work Unit\JamNATION1
@@ -187,7 +202,8 @@ MonoBehaviour:
         ObjectType: 7
       ID: 928029035
       Guid: 3b2c8eb259bbe041aea53c33cefb18e6
-  ExpandedItems: []
+  ExpandedItems:
+  - /JamNation1
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
