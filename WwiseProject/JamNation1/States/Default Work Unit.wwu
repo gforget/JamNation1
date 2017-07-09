@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CEEC1D84-B018-48F1-A40F-70F5EBE1BDB8}" SchemaVersion="75">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{CEEC1D84-B018-48F1-A40F-70F5EBE1BDB8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CEEC1D84-B018-48F1-A40F-70F5EBE1BDB8}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_Biomes" ID="{4320DAC8-8D1C-4661-A5B1-603DB00C72C4}">
+					<ChildrenList>
+						<State Name="None" ID="{86DAE788-71F7-48F9-8A63-83334348A4D1}"/>
+						<State Name="Mountain" ID="{A106CCF7-9314-41B7-9C26-D7974188B472}"/>
+						<State Name="Jungle" ID="{A6EF2F48-9ADB-4F33-9078-A4C2B9ABEC53}"/>
+						<State Name="Grotto" ID="{BE2C6DFB-9FBD-4D65-809A-39F8EC45C47E}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

@@ -5,20 +5,29 @@
 			<ChildrenList>
 				<SoundBank Name="JamNATION1" ID="{B28E2C3B-BB59-41E0-AEA5-3C33CEFB18E6}">
 					<ObjectInclusionList>
+						<ObjectRef Name="P2" ID="{BB3E55C7-B85B-4085-A372-6EC5ED015D77}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P1_Throw" ID="{D11E638F-B902-4085-8975-39CB8C820AB0}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="FS_Players" ID="{7DF49B6A-1E15-40B8-BF68-251550A67ED4}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P1_Jump" ID="{B1304919-B6C6-40D7-94A1-680A988E10F9}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Cave_Beach" ID="{CBFC33E7-DF82-40E0-BCBC-3C1AEC598FDF}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_Eggs_Impact" ID="{C8558D8D-70A0-40FA-B768-A2EFB50B1DDD}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Effect_Cave" ID="{29D10D56-8B66-41A3-B6C1-A5096D6BBCE1}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambiances" ID="{B49F0F60-DBB8-41DA-BECB-13E9B6D168F0}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P1_Oops" ID="{846FDAEB-43EE-4247-98A1-7FD149B86D2C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P2_Oops" ID="{CD1D3FD7-765E-4252-8E28-6080EBE3679A}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MUS_Level_Jungle" ID="{B6047848-48A2-42B4-8B05-415A07F8AF3D}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_Eggs_Catching" ID="{219B6880-A5BA-4431-BF9D-07B8A061EE34}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MUS_Level_Play" ID="{94B841D2-45B1-453B-87D3-0CE20FB5F4FC}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SFX_Eggs_Speed" ID="{133F25EC-B783-4640-8108-79C2FBBE8ED1}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P1_Dying" ID="{A66E99FE-1E19-4649-844E-77DA22C6BC7C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MUS_Level_Grotto" ID="{CF887FAB-696D-481B-8FA8-02EDA8642A9E}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P2_Throw" ID="{7E649A48-099D-49E1-9FB1-1AF2E6184BD6}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="P3" ID="{7FD35077-5296-4A25-9898-B8226B670B15}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Jungle_Cave" ID="{1285C532-0FA8-4A66-8B33-7ED4B0AE5C70}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P2_Jump" ID="{F6A0316C-989E-4B26-9CFE-2AFDEA872E7C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="P4" ID="{3DFF26B5-3AA9-4C5E-860F-1C64621CAD7B}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambiance_start" ID="{FE81713B-0AD4-4DA9-BB54-EBE6D4B9D7BF}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="P1" ID="{C3D7D5E8-6803-4DC8-A80A-79115C298D86}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P2_Dying" ID="{588298B3-D7BD-4E3A-B7E3-CB5C0DA3EABA}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_Eggs_Breaking" ID="{6B6CDEED-9337-4EE6-9D6C-66A02F44E6A1}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Mountain_Jungle" ID="{B6067089-87D7-4FBE-B3A2-B4F9B42D8FD7}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
