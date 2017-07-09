@@ -15,7 +15,6 @@ namespace AK
     {
         static const AkUniqueID AMBIANCE_START = 778605252U;
         static const AkUniqueID CAVE_BEACH = 1201886138U;
-        static const AkUniqueID EFFECT_CAVE = 1058671230U;
         static const AkUniqueID FS_PLAYERS = 1240468467U;
         static const AkUniqueID JUNGLE_CAVE = 2566409294U;
         static const AkUniqueID MOUNTAIN_JUNGLE = 3833726988U;
@@ -108,6 +107,7 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID REVERB = 348963605U;
+        static const AkUniqueID REVERB2 = 3545700925U;
     } // namespace AUX_BUSSES
 
 }// namespace AK

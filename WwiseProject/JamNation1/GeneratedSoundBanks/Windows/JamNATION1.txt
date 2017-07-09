@@ -8,7 +8,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	778605252	Ambiance_start			\Default Work Unit\Ambiance_start	
 	968454069	SFX_P4_Oops			\Default Work Unit\P4\SFX_P4_Oops	
 	1022741657	P1_Throw			\Default Work Unit\P1\P1_Throw	
-	1058671230	Effect_Cave			\Default Work Unit\Effect_Cave	
 	1099710263	MUS_Level_Jungle			\Default Work Unit\MUS_Level_Jungle	
 	1201886138	Cave_Beach			\Default Work Unit\Cave_Beach	
 	1220082869	SFX_Eggs_Catching			\Default Work Unit\SFX_Eggs_Catching	
@@ -42,6 +41,7 @@ Effect plug-ins	ID	Name	Type				Notes
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	7027881	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\Sporadic_Sounds\Silence01\Wwise Silence	
 	325782421	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\Sporadic_Sounds\Silence03\Wwise Silence	
+	587357184	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Roars\Silence01\Wwise Silence	
 	739416262	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\Sporadic_Sounds\Silence02\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -94,7 +94,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	366209240	Roars-002	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Roars-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-002		486408
 	367192116	Dying2-002	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying2-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2-002		325496
 	383758725	SFX_P4_Throw03	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\SFX_P4_Throw03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Throw\SFX_P4_Throw03		75898
-	384835817	AMB_Grotto	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_Grotto_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Grotto		5644864
+	384835817	AMB_Cave	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_Grotto_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Grotto\AMB_Cave		5644864
 	393363518	Birds3	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Birds3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds3		606868
 	403061384	Throw1_1	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw1.1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_1		106260
 	404386752	Roars-005	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Roars-005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-005		466672
