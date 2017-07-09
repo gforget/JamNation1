@@ -356,8 +356,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1911564660907002}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.1, y: 3.08, z: 3.26}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.71, y: 51.06, z: 0.022193909}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 4497634274106754}
   - {fileID: 4769720226502894}
@@ -757,15 +757,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EggParent: {fileID: 4497634274106754}
   m_EggController: {fileID: 114923466787546356}
-  m_BaseThrowEgg: 700
+  m_BaseThrowEgg: 400
   m_PlayerIndex: 1
-  m_Gravity: 2
+  m_Gravity: 1
   m_SpeedWithoutEgg: 6.2
   m_SpeedWithEgg: 4
-  m_JumpWithoutEgg: 40
-  m_JumpWithEgg: 13
-  m_RadiusEggPicker: 1.52
-  m_YOffSetRadiusEggPicker: 1.72
+  m_JumpWithoutEgg: 16
+  m_JumpWithEgg: 14
+  m_RadiusEggPicker: 1
+  m_YOffSetRadiusEggPicker: 1
   m_TimeRespawn: 2
   m_Renderer: {fileID: 137779937729431276}
 --- !u!114 &114923466787546356
