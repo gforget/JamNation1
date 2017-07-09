@@ -5,7 +5,11 @@
 			<ChildrenList>
 				<SoundBank Name="JamNATION1" ID="{B28E2C3B-BB59-41E0-AEA5-3C33CEFB18E6}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Cave_Beach" ID="{CBFC33E7-DF82-40E0-BCBC-3C1AEC598FDF}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambiances" ID="{B49F0F60-DBB8-41DA-BECB-13E9B6D168F0}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Jungle_Cave" ID="{1285C532-0FA8-4A66-8B33-7ED4B0AE5C70}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ambiance_start" ID="{FE81713B-0AD4-4DA9-BB54-EBE6D4B9D7BF}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Mountain_Jungle" ID="{B6067089-87D7-4FBE-B3A2-B4F9B42D8FD7}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

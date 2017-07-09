@@ -1,12 +1,85 @@
 Event	ID	Name			Wwise Object Path	Notes
+	104172609	P2_Dying			\Default Work Unit\P2_Dying	
+	150832419	P1_Jump			\Default Work Unit\P1_Jump	
 	778605252	Ambiance_start			\Default Work Unit\Ambiance_start	
+	1022741657	P1_Throw			\Default Work Unit\P1_Throw	
 	1201886138	Cave_Beach			\Default Work Unit\Cave_Beach	
+	1372435655	P2_Oops			\Default Work Unit\P2_Oops	
+	1424313346	P2_Throw			\Default Work Unit\P2_Throw	
+	1912722926	P1_Oops			\Default Work Unit\P1_Oops	
+	2155174042	P2_Jump			\Default Work Unit\P2_Jump	
 	2566409294	Jungle_Cave			\Default Work Unit\Jungle_Cave	
+	3419501818	P1_Dying			\Default Work Unit\P1_Dying	
 	3833726988	Mountain_Jungle			\Default Work Unit\Mountain_Jungle	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7790226	Oops1_2	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops1.2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_2		156484
+	14873747	Dying1_5	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying1.5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_5		141744
+	36245745	Dying1_7	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying1.7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_7		186960
+	36830716	Throw1_6	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw1.6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_6		164784
+	64865295	Jump2-002	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump2-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-002		271052
+	91161987	Oops2-005	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops2-005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-005		435456
 	103563836	AMB_River	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_River_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_River		5292064
+	126832937	Jump1_3	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump1.3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Jump\Jump1_3		78600
+	142788065	Oops1_1	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops1.1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_1		125748
+	157561799	Oops2-002	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops2-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-002		394828
+	176228745	Oops1_6	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops1.6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_6		127044
+	207249369	Birds1	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Birds1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds1		741352
+	211616883	Dying1_4	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying1.4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_4		182440
+	230369024	Oops2-003	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops2-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-003		391020
+	250981103	Birds2	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Birds2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds2		536996
+	254843072	Jump2-006	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump2-006_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-006		358364
+	291133565	Oops2-006	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops2-006_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-006		432916
+	309886106	Dying2-001	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying2-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2-001		314900
+	344249088	Jump1_1	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump1.1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Jump\Jump1_1		150344
+	345994468	Oops1_5	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops1.5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_5		144976
+	349305849	Throw1_4	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw1.4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_4		180284
+	354195372	Oops2-001	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops2-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-001		406256
+	366209240	Roars-002	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Roars-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-002		486408
+	367192116	Dying2-002	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying2-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2-002		325496
 	384835817	AMB_Grotto	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_Grotto_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Grotto		5644864
+	393363518	Birds3	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Birds3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds3		606868
+	403061384	Throw1_1	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw1.1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_1		106260
+	404386752	Roars-005	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Roars-005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-005		466672
+	404987771	Birds5	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Birds5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds5		416312
+	413592695	Oops2-007	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops2-007_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-007		375784
+	421743798	Throw2-002	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw2-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-002		327384
+	481611726	Monkey-004	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Monkey-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Monkey\Monkey-004		526544
+	489373370	Birds4	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Birds4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds4		550436
+	497292872	Roars-001	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Roars-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-001		466764
+	519311887	Jump2-004	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump2-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-004		301972
+	530571175	Monkey-001	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Monkey-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Monkey\Monkey-001		703968
+	557999596	Dying1_1	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying1.1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_1		159832
+	560090652	Oops1_3	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops1.3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_3		152640
+	570688799	Dying1_6	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying1.6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_6		152296
+	574506545	Oops2-004	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops2-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-004		430376
+	591674832	Throw2-006	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw2-006_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-006		408188
+	594172863	Monkey-002	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Monkey-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Monkey\Monkey-002		733684
 	595862749	AMB_Mountain	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_Mountain_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountain		10407664
-	644475235	AMB_Jungle	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_Jungle_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle		11289664
+	600600425	Throw2-001	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw2-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-001		378176
+	644475235	AMB_Jungle	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_Jungle_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\AMB_Jungle		11289664
+	665764592	Throw1_5	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw1.5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_5		111280
+	673393831	Roars-004	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Roars-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-004		524656
+	689390529	Jump1_2	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump1.2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Jump\Jump1_2		108432
+	715527660	Dying2-004	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying2-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2-004		355460
+	745450955	Birds6	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Birds6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds6		458668
+	785595763	Oops1_4	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Oops1.4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_4		200940
+	790925619	Jump2-003	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump2-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-003		338352
+	800812743	Jump2-001	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump2-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-001		263776
+	859434769	Throw1_3	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw1.3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_3		161196
+	876879778	Jump1_4	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump1.4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Jump\Jump1_4		91688
+	889749822	Monkey-003	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Monkey-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Monkey\Monkey-003		851248
+	895719656	Throw2-004	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw2-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-004		379628
+	917354480	Throw2-005	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw2-005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-005		366564
+	940345262	Throw1_2	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw1.2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_2		117084
+	954873738	Roars-006	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Roars-006_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-006		535564
+	958536214	Dying1_2	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying1.2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_2		203540
+	967692355	Roars-003	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Roars-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-003		561052
+	974364511	Dying2-003	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying2-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2-003		319144
+	979812704	Throw2-003	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw2-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-003		370920
+	1010943876	Jump1_5	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump1.5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Jump\Jump1_5		101368
+	1030999867	Dying2_005	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying2.005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2_005		422032
+	1037359990	Dying1_3	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Dying1.3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_3		128180
+	1055292656	Throw2-007	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Throw2-007_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-007		352056
+	1059225506	Jump2-005	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\Jump2-005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-005		336536
 
