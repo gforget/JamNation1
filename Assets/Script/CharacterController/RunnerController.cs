@@ -73,6 +73,7 @@ public class RunnerController : MonoBehaviour
             {
                 AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Dying", gameObject);
                 StartCoroutine(RespawnCoroutine());
+                Destroy(m_EggController.gameObject);
             }
         }
     }
