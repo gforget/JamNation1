@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 143494341930225110}
   - component: {fileID: 114651626453784714}
   m_Layer: 11
-  m_Name: RunnerAnimated
+  m_Name: RunnerAnimated 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
