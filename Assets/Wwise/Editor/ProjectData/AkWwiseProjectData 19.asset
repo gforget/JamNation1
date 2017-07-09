@@ -13,6 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -193,13 +195,17 @@ MonoBehaviour:
   - /JamNation1/Events
   - /JamNation1/Events/Default Work Unit
 =======
+>>>>>>> 9269e0e4e8936e5c05bb9d7637545098018348c6
   EventWwu: []
   AuxBusWwu: []
   StateWwu: []
   SwitchWwu: []
   BankWwu: []
   ExpandedItems: []
+<<<<<<< HEAD
+=======
 >>>>>>> 9eb8b86b21a22a6fa2667926647dddec817273d6
+>>>>>>> 9269e0e4e8936e5c05bb9d7637545098018348c6
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

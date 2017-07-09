@@ -31,12 +31,12 @@ public class PlayerScript : MonoBehaviour {
 	}
 
 	public void TriggerCavern() {
-		if (eyesRend.enabled == true) {
-			meshRend.enabled = true;
-			eyesRend.enabled = false;
-		} else {
-			meshRend.enabled = false;
-			eyesRend.enabled = true;
-		}
+		// if (eyesRend.enabled == true) {
+		// 	meshRend.enabled = true;
+		// 	eyesRend.enabled = false;
+		// } else {
+		// 	meshRend.enabled = false;
+		// 	eyesRend.enabled = true;
+		// }
 	}
 }

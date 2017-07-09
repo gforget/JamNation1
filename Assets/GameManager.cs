@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class GameManager : MonoBehaviour {
 
@@ -10,6 +11,9 @@ public class GameManager : MonoBehaviour {
 	public int biome;
 
 	string[] ambianceNames;
+
+	public bool cavernLight;
+	public Light dirLight;
 
 	// Use this for initialization
 	void Awake () 
@@ -34,5 +38,14 @@ public class GameManager : MonoBehaviour {
 	public void SwitchBiome() {
 		AkSoundEngine.PostEvent(ambianceNames[biome], gameObject);
 		biome++;
+	}
+
+	public IEnumerator ChangeLight () {
+		yield return new WaitForEndOfFrame();
+		if (cavernLight == true) {
+			dirLight.DOIntensity(0, 0.50f);
+		} else {
+			dirLight.DOIntensity(1, 0.50f);
+		}
 	}
 }
