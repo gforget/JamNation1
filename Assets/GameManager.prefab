@@ -33,8 +33,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1211575759661158}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.695945, y: 54.44664, z: -4.3352227}
+  m_LocalRotation: {x: 0.1500825, y: 0.7588201, z: 0.560916, w: -0.2950265}
+  m_LocalPosition: {x: 253.06497, y: 25.340754, z: 49.559036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52,3 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   biome: 0
+  EggPrefab: {fileID: 1238541233674244, guid: 81b0cd4a4c370824b8761b722e0a2318, type: 2}
+  eggControllers: []
+  cavernLight: 0
+  dirLight: {fileID: 0}
