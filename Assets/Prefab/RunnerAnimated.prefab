@@ -781,7 +781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NotUsable: 0
   VelocityDestroy: 10
-  TrailRenderer: {fileID: 0}
+  IsTaken: 1
 --- !u!135 &135682916277992648
 SphereCollider:
   m_ObjectHideFlags: 1

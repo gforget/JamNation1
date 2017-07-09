@@ -254,6 +254,214 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="P3" ID="{7FD35077-5296-4A25-9898-B8226B670B15}" ShortID="921344281">
+					<ChildrenList>
+						<Event Name="SFX_P3_Dying" ID="{BAAFE266-6102-4EEC-A665-1E779DFF9DCA}">
+							<ChildrenList>
+								<Action Name="Play" ID="{BDB07D7B-546A-421E-99AE-44D6BF09D7DF}" ShortID="1064174017" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{21603391-A871-4210-999E-08F8BD7B1CE2}" Global="false">
+											<ObjectRef Name="SFX_P3_Dying" ID="{E78467A5-ACA4-4C69-9694-5A9F9A9614EF}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_P3_Jump" ID="{E67D79B3-88BC-4E98-96CF-DD4CC1B5B2C0}">
+							<ChildrenList>
+								<Action Name="Play" ID="{68CFA3AF-D702-4CFA-A262-B41D1B873055}" ShortID="75456540" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{93007224-B38C-4B23-8C76-58787F929739}" Global="false">
+											<ObjectRef Name="SFX_P3_Jump" ID="{D2E931E0-D1FC-4566-A70B-549DEA17DC13}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_P3_Oops" ID="{2FDBACD9-5BEF-4D04-A04E-472B9A6E3641}">
+							<ChildrenList>
+								<Action Name="Play" ID="{A14F51AC-DE84-4886-8A8F-94B76A5142CA}" ShortID="378787323" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B8C8BE61-5E88-49FC-98C9-0CA37935594A}" Global="false">
+											<ObjectRef Name="SFX_P3_Oops" ID="{CE229BEC-8619-4D63-A5A9-B9A12EADE705}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_P3_Throw" ID="{169A6E0F-5E7A-49C1-AAE0-94031F381858}">
+							<ChildrenList>
+								<Action Name="Play" ID="{488153A4-AE4D-498B-A34B-E4828E5BF941}" ShortID="68815569" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{1E0F0094-876A-4249-985F-D75EC38C4DDB}" Global="false">
+											<ObjectRef Name="SFX_P3_Throw" ID="{B8A9FEFF-4495-45C9-8FAC-D2CC7D30AC4A}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="P4" ID="{3DFF26B5-3AA9-4C5E-860F-1C64621CAD7B}" ShortID="311530053">
+					<ChildrenList>
+						<Event Name="SFX_P4_Dying" ID="{E6CE2638-F568-4F65-8592-F9E81B57D516}">
+							<ChildrenList>
+								<Action Name="Play" ID="{26366A6B-44E8-4B98-BF8F-F967CC34F325}" ShortID="811091496" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B1BEA85F-FB61-4223-BACB-F390E28BCE9C}" Global="false">
+											<ObjectRef Name="SFX_P4_Dying" ID="{4DA7943A-71DA-4FE6-ABB8-6823B1930F91}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_P4_Jump" ID="{9ABA223E-BFB7-484F-9DAE-E23B66D5C218}">
+							<ChildrenList>
+								<Action Name="Play" ID="{AFDFF63B-C049-4C75-8CFA-A057A4B44254}" ShortID="94494592" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{80F101DE-E645-47B5-AB30-D89D7B48644F}" Global="false">
+											<ObjectRef Name="SFX_P4_Jump" ID="{814ED38A-A30D-4831-81C0-917E09EEBA4D}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_P4_Oops" ID="{48F13349-4C58-44C4-A789-FFC0E20EDD76}">
+							<ChildrenList>
+								<Action Name="Play" ID="{5F5F687E-4322-47A0-915A-EAF44E7B8867}" ShortID="7193924" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{F590BB1C-A283-4699-8F00-445FC65F536A}" Global="false">
+											<ObjectRef Name="SFX_P4_Oops" ID="{34A91A7A-7FB1-4A0F-862C-4628006AA712}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_P4_Throw" ID="{12CEF8B3-0DBA-40C4-BF6E-0C5EFF01EB1E}">
+							<ChildrenList>
+								<Action Name="Play" ID="{665A15A8-611F-46CC-8BDE-1DF8EA222AF9}" ShortID="765999244" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{24A9C7A7-392C-4594-9BCD-E63420AEA1D5}" Global="false">
+											<ObjectRef Name="SFX_P4_Throw" ID="{7B34C2ED-00E0-4F32-B180-9FAD533E625B}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="SFX_Eggs_Speed" ID="{133F25EC-B783-4640-8108-79C2FBBE8ED1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E6B8569A-5945-4EA6-884C-591685899596}" ShortID="776792247" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DA34D313-E7AB-4293-8186-DF9F373A7CF3}" Global="false">
+									<ObjectRef Name="SFX_Eggs_Speed" ID="{481DC67A-C757-4CE7-BCA5-E81D0A998849}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MUS_Level_Play" ID="{94B841D2-45B1-453B-87D3-0CE20FB5F4FC}">
+					<ChildrenList>
+						<Action Name="Set Bus Volume" ID="{235C5F2A-B56D-4ECD-8A48-AC3F26F04A57}" ShortID="646740518" Type="ChangeBusVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{9E9694E9-D0F6-457A-A6E2-CB4DD84CF2EC}" Global="true">
+									<ObjectRef Name="Reverb" ID="{0C81BF86-F9CC-433D-9C9A-A794EB177FFE}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Bus Volume" ID="{FBEC2D2B-7C3A-417E-BB5D-4B3B90AD2C66}" ShortID="562037783" Type="ChangeBusVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{892A374A-B078-4930-8AA1-2BF77EA0CC27}" Global="true">
+									<ObjectRef Name="Musique" ID="{6CFC9D05-CB3D-4E48-924E-1F8AAC5C1A42}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set State" ID="{80F46265-9CB7-4ABA-B6BA-B41626BF90C5}" ShortID="386770874" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Music_Biomes" ID="{4320DAC8-8D1C-4661-A5B1-603DB00C72C4}"/>
+								<GroupItem Name="Mountain" ID="{A106CCF7-9314-41B7-9C26-D7974188B472}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Play" ID="{F9ADBC90-F376-4F06-B850-085E7682C638}" ShortID="398004829" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6014C1C6-281B-4F8E-AF2C-E0240BD52C77}" Global="false">
+									<ObjectRef Name="MUS_Level" ID="{093BDF02-AAFF-4D23-BC3C-5B8B602ABB36}" WorkUnitID="{FC0537DB-7DFC-4846-B738-A2632CCFA454}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Effect_Cave" ID="{29D10D56-8B66-41A3-B6C1-A5096D6BBCE1}"/>
+				<Event Name="MUS_Level_Jungle" ID="{B6047848-48A2-42B4-8B05-415A07F8AF3D}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{388CB90F-082A-4D7D-9F56-B60A669A34C9}" ShortID="757624225" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Music_Biomes" ID="{4320DAC8-8D1C-4661-A5B1-603DB00C72C4}"/>
+								<GroupItem Name="Jungle" ID="{A6EF2F48-9ADB-4F33-9078-A4C2B9ABEC53}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set Bus Volume" ID="{322A27C8-4AE4-41C3-A397-9F49730E7C0F}" ShortID="399314414" Type="ChangeBusVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{8DFAF21E-F225-4C53-8DAE-50B1A07F932C}" Global="true">
+									<ObjectRef Name="Musique" ID="{6CFC9D05-CB3D-4E48-924E-1F8AAC5C1A42}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Bus Volume" ID="{3B5D9630-A8DF-4DBC-8374-C7CC733A8ADA}" ShortID="1024596994" Type="ChangeBusVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{4CC35D01-6D00-4B74-BB31-4F4C7E953466}" Global="true">
+									<ObjectRef Name="Reverb" ID="{0C81BF86-F9CC-433D-9C9A-A794EB177FFE}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MUS_Level_Grotto" ID="{CF887FAB-696D-481B-8FA8-02EDA8642A9E}">
+					<ChildrenList>
+						<Action Name="Set State" ID="{64B0DCB3-7E09-42FE-AFD8-28408060D73C}" ShortID="232962467" Type="SetState" Scope="All" Global="true">
+							<SetItemParam>
+								<Group Name="Music_Biomes" ID="{4320DAC8-8D1C-4661-A5B1-603DB00C72C4}"/>
+								<GroupItem Name="Grotto" ID="{BE2C6DFB-9FBD-4D65-809A-39F8EC45C47E}"/>
+							</SetItemParam>
+						</Action>
+						<Action Name="Set Bus Volume" ID="{1BCE97FC-B480-41A7-8090-346A272D5C2D}" ShortID="727380884" Type="ChangeBusVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{447B9B6D-3643-4D68-A2D4-53CA9AB52539}" Global="true">
+									<ObjectRef Name="Musique" ID="{6CFC9D05-CB3D-4E48-924E-1F8AAC5C1A42}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Set Bus Volume" ID="{E2413682-278E-478C-BFC6-99AC74E67793}" ShortID="465331178" Type="ChangeBusVolume" Scope="One" Global="true">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{76A56C66-BAC3-40CB-96B2-51E402EDBC6B}" Global="true">
+									<ObjectRef Name="Reverb" ID="{0C81BF86-F9CC-433D-9C9A-A794EB177FFE}" WorkUnitID="{23C8CB3C-C917-48F9-806A-0888C0397D71}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

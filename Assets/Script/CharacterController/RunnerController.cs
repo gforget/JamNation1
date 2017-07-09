@@ -71,13 +71,10 @@ public class RunnerController : MonoBehaviour
 
             if (m_CharacterState == CharacterState.Death)
             {
-                if (_prevState == CharacterState.withEgg)
-                {
-                    Destroy(m_EggController.gameObject);
-                }
 
-                AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Dying", gameObject);
+                Debug.Log("respawn");
                 StartCoroutine(RespawnCoroutine());
+                AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Dying", gameObject);
             }
         }
     }
@@ -154,8 +151,7 @@ public class RunnerController : MonoBehaviour
 
     private void Update()
     {
-        
-        if (characterState == CharacterState.Death) return;
+        if (!m_Gamepad.IsConnected || characterState == CharacterState.Death) return;
 
         if (m_Gamepad.GetButtonDown("A") && (m_Controller.isGrounded || m_JumpAirDelayed))
         {
@@ -234,7 +230,7 @@ public class RunnerController : MonoBehaviour
     {
         yield return new WaitForSeconds(m_TimeRespawn);
 
-        Vector3 spawnPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y+25.0f, m_BeginZ);
+        Vector3 spawnPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y+5.0f, m_BeginZ);
         transform.position = spawnPosition;
         characterState = CharacterState.withoutEgg;
     }
