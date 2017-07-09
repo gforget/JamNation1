@@ -19,8 +19,14 @@ public class CavernTrigger : MonoBehaviour {
 		void OnTriggerEnter(Collider col) {
 				if (col.CompareTag("Player")) {
 					col.gameObject.GetComponent<PlayerScript>().TriggerCavern();
+					if(GameManager.instance.cavernLight == true) {
+						GameManager.instance.cavernLight = false;
+					} else {
+						GameManager.instance.cavernLight = true;
+					}
+					StartCoroutine(GameManager.instance.ChangeLight());
 					thisCollider.enabled = false;
 				}
+		}
 
-	}
 }
