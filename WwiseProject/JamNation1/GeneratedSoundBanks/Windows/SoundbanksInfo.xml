@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>/Users/Jean/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/JamNation1/WwiseProject/JamNation1/</ProjectRoot>
+		<SourceFilesRoot>/Users/Jean/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/JamNation1/WwiseProject/JamNation1/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Jean/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/JamNation1/WwiseProject/JamNation1/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/Jean/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/JamNation1/WwiseProject/JamNation1/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="928029035" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\JamNATION1</ObjectPath>
+			<ShortName>JamNATION1</ShortName>
+			<Path>JamNATION1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="778605252" Name="Ambiance_start" ObjectPath="\Events\Default Work Unit\Ambiance_start"/>
+				<Event Id="1201886138" Name="Cave_Beach" ObjectPath="\Events\Default Work Unit\Cave_Beach"/>
+				<Event Id="2566409294" Name="Jungle_Cave" ObjectPath="\Events\Default Work Unit\Jungle_Cave"/>
+				<Event Id="3833726988" Name="Mountain_Jungle" ObjectPath="\Events\Default Work Unit\Mountain_Jungle"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="103563836" Language="SFX">
+					<ShortName>AMB_River.wav</ShortName>
+					<Path>SFX/AMB_River_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="384835817" Language="SFX">
+					<ShortName>AMB_Grotto.wav</ShortName>
+					<Path>SFX/AMB_Grotto_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="595862749" Language="SFX">
+					<ShortName>AMB_Mountain.wav</ShortName>
+					<Path>SFX/AMB_Mountain_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="644475235" Language="SFX">
+					<ShortName>AMB_Jungle.wav</ShortName>
+					<Path>SFX/AMB_Jungle_4B8CC0C5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

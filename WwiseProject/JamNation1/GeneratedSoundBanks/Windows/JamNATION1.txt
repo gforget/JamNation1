@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	778605252	Ambiance_start			\Default Work Unit\Ambiance_start	
+	1201886138	Cave_Beach			\Default Work Unit\Cave_Beach	
+	2566409294	Jungle_Cave			\Default Work Unit\Jungle_Cave	
+	3833726988	Mountain_Jungle			\Default Work Unit\Mountain_Jungle	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	103563836	AMB_River	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_River_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_River		5292064
+	384835817	AMB_Grotto	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_Grotto_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Grotto		5644864
+	595862749	AMB_Mountain	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_Mountain_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountain		10407664
+	644475235	AMB_Jungle	Y:\JamNation1\WwiseProject\JamNation1\.cache\Windows\SFX\AMB_Jungle_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle		11289664
+
