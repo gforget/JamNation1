@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
@@ -9,6 +9,26 @@ public class GameManager : MonoBehaviour {
 
 	//0 = mountain, 1 = jungle, 2 = cavern, 3 = beach;
 	public int biome;
+
+    public GameObject EggPrefab;
+    public List<EggController> eggControllers;
+
+    public void AddEgg(EggController egg)
+    {
+        eggControllers.Add(egg);
+    }
+    public void RemoveEgg(EggController egg)
+    {
+        float zPosition = egg.transform.position.z;
+        eggControllers.Remove(egg);
+
+        if (eggControllers.Count == 0)
+        {
+            GameObject eggGo = Instantiate(EggPrefab);
+            Vector3 spawnPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y + 25.0f, zPosition);
+            eggGo.transform.position = spawnPosition;
+        }
+    }
 
 	string[] ambianceNames;
 

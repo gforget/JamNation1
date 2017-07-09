@@ -12,10 +12,19 @@ public class EggController : MonoBehaviour {
     TrailRenderer TrailRenderer;
 
 	// Use this for initialization
-	void Awake ()
+	IEnumerator Start ()
     {
+        while (GameManager.instance == null) yield return null;
+
         m_RigidBody = GetComponent<Rigidbody>();
         TrailRenderer = GetComponent<TrailRenderer>();
+
+        GameManager.instance.AddEgg(this);
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.instance.RemoveEgg(this);
     }
 
     bool m_TrailActive
