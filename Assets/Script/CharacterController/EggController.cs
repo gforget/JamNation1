@@ -62,7 +62,7 @@ public class EggController : MonoBehaviour {
 
     private void Update()
     {
-        m_TrailActive = m_RigidBody.velocity.magnitude > VelocityDestroy;
+        m_TrailActive = true;
 
         if (m_Renderer.isVisible) m_HaveBeenVisible = true;
         if (!m_Renderer.isVisible && m_HaveBeenVisible)
@@ -92,14 +92,6 @@ public class EggController : MonoBehaviour {
 
     void OnCollisionEnter(Collision collision)
     {
-        if (m_RigidBody.velocity.magnitude > VelocityDestroy)
-        {
-            AkSoundEngine.PostEvent("SFX_Eggs_Breaking", gameObject);
-            Destroy(gameObject);
-        }
-        else
-        {
-            AkSoundEngine.PostEvent("SFX_Eggs_Impact", gameObject);
-        }
+       AkSoundEngine.PostEvent("SFX_Eggs_Impact", gameObject);
     }
 }

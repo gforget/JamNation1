@@ -11,7 +11,7 @@
 						<ObjectRef Name="P1_Jump" ID="{B1304919-B6C6-40D7-94A1-680A988E10F9}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Cave_Beach" ID="{CBFC33E7-DF82-40E0-BCBC-3C1AEC598FDF}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_Eggs_Impact" ID="{C8558D8D-70A0-40FA-B768-A2EFB50B1DDD}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Effect_Cave" ID="{29D10D56-8B66-41A3-B6C1-A5096D6BBCE1}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Effect_Cave" ID="{29D10D56-8B66-41A3-B6C1-A5096D6BBCE1}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambiances" ID="{B49F0F60-DBB8-41DA-BECB-13E9B6D168F0}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P1_Oops" ID="{846FDAEB-43EE-4247-98A1-7FD149B86D2C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P2_Oops" ID="{CD1D3FD7-765E-4252-8E28-6080EBE3679A}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
