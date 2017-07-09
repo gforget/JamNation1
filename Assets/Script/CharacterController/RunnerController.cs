@@ -47,14 +47,21 @@ public class RunnerController : MonoBehaviour
 
             if (m_CharacterState == CharacterState.withEgg)
             {
+                if (_prevState == CharacterState.withoutEgg)
+                {
+                    AkSoundEngine.PostEvent("SFX_Eggs_Catching", gameObject);
+                }
+
                 m_SpeedX = m_SpeedWithEgg;
                 m_JumpInitialVelocity = m_JumpWithEgg;
             }
 
             if (m_CharacterState == CharacterState.withoutEgg)
             {
+                
                 if (_prevState == CharacterState.withEgg)
                 {
+                    AkSoundEngine.PostEvent("P"+ m_PlayerIndex + "_Oops", gameObject);
                     m_EggController.LaunchEgg((transform.forward * Random.Range(0.0f, 1.0f) + transform.up*Random.Range(0.0f, 1.0f)) * m_BaseThrowEgg);
                 }
 
@@ -64,6 +71,7 @@ public class RunnerController : MonoBehaviour
 
             if (m_CharacterState == CharacterState.Death)
             {
+                AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Dying", gameObject);
                 StartCoroutine(RespawnCoroutine());
             }
         }
@@ -146,6 +154,7 @@ public class RunnerController : MonoBehaviour
 
         if (m_Gamepad.GetButtonDown("A") && (m_Controller.isGrounded || m_JumpAirDelayed))
         {
+            AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Jump", gameObject);
             m_YVelocity = m_JumpInitialVelocity;
             m_HavePressA = true;
             m_HaveBeenGrounded = false;
@@ -155,6 +164,7 @@ public class RunnerController : MonoBehaviour
         {
             if (characterState == CharacterState.withEgg)
             {
+                AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Throw", gameObject);
                 characterState = CharacterState.withoutEgg;
                 m_EggController.LaunchEgg((transform.forward * m_Gamepad.GetStick_L().X * lookAtDirection + transform.up * m_Gamepad.GetStick_L().Y) * m_BaseThrowEgg);
             }
@@ -234,7 +244,8 @@ public class RunnerController : MonoBehaviour
 
             if (hitColliders.Length > 0)
             {
-                if (!hitColliders[0].gameObject.GetComponent<EggController>().NotUsable
+                if (!hitColliders[0].gameObject.GetComponent<EggController>().IsTaken &&
+                    !hitColliders[0].gameObject.GetComponent<EggController>().NotUsable
                 && characterState == CharacterState.withoutEgg)
                 {
                     m_EggController = hitColliders[0].gameObject.GetComponent<EggController>();
