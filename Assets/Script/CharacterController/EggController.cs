@@ -8,8 +8,7 @@ public class EggController : MonoBehaviour {
     public float VelocityDestroy = 10.0f;
     
     Rigidbody m_RigidBody;
-
-    public TrailRenderer TrailRenderer;
+    TrailRenderer TrailRenderer;
 
 	// Use this for initialization
 	void Awake ()
