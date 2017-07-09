@@ -15,8 +15,6 @@ public class GameManager : MonoBehaviour {
 	public bool cavernLight;
 	public Light dirLight;
 
-	public Skybox skybox;
-
 	// Use this for initialization
 	void Awake () 
 	{
