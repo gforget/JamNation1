@@ -107,15 +107,37 @@ public class RunnerController : MonoBehaviour
     
     bool m_HavePressA;
     bool m_HaveBeenVisible = false;
+    bool m_JumpAirDelayed
+    {
+        get
+        {
+            return _m_JumpAirDelayed;
+        }
+
+        set
+        {
+            bool prevValue = _m_JumpAirDelayed;
+            _m_JumpAirDelayed = value;
+
+            if (prevValue != _m_JumpAirDelayed && _m_JumpAirDelayed)
+            {
+                StartCoroutine(JumpAirDelayedRoutine());
+            }
+        }
+    }
+
+    bool _m_JumpAirDelayed = false;
+    bool m_HaveBeenGrounded = false;
 
     private void Update()
     {
         if (characterState == CharacterState.Death) return;
 
-        if (m_Gamepad.GetButtonDown("A") && m_Controller.isGrounded)
+        if (m_Gamepad.GetButtonDown("A") && (m_Controller.isGrounded || m_JumpAirDelayed))
         {
             m_YVelocity = m_JumpInitialVelocity;
             m_HavePressA = true;
+            m_HaveBeenGrounded = false;
         }
 
         if (m_Gamepad.GetButtonDown("X"))
@@ -130,6 +152,13 @@ public class RunnerController : MonoBehaviour
         if (m_Controller.isGrounded && m_YVelocity < 0)
         {
             m_YVelocity = 0;
+            m_HaveBeenGrounded = true;
+        }
+
+        if (!m_Controller.isGrounded && m_HaveBeenGrounded)
+        {
+            m_JumpAirDelayed = true;
+            m_HaveBeenGrounded = false;
         }
 
         //quick fix to resolve the first frame where the camera dont render the players
@@ -138,6 +167,12 @@ public class RunnerController : MonoBehaviour
         {
             characterState = CharacterState.Death;
         } 
+    }
+
+    IEnumerator JumpAirDelayedRoutine()
+    {
+        yield return new WaitForSeconds(0.1f);
+        m_JumpAirDelayed = false;
     }
 
     float lookAtDirection = 1;
