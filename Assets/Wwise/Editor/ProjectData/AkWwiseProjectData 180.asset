@@ -9,16 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 574436500e6874644be846966cfed906, type: 3}
-  m_Name: AkWwiseProjectData 178
+  m_Name: AkWwiseProjectData 180
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
-<<<<<<< HEAD
-  EventWwu: []
-  AuxBusWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  BankWwu: []
-=======
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -447,7 +440,6 @@ MonoBehaviour:
         ObjectType: 7
       ID: 928029035
       Guid: 3b2c8eb259bbe041aea53c33cefb18e6
->>>>>>> c4d821868cff320fe9d80a6b41a43a61461255ff
   ExpandedItems: []
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0

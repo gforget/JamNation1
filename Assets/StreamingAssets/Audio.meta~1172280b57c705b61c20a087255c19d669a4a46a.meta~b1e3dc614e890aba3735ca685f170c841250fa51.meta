@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/StreamingAssets/Audio.meta~1172280b57c705b61c20a087255c19d669a4a46a.meta~b1e3dc614e890aba3735ca685f170c841250fa51.meta
+guid: 402c10b50ee8124429f121e4840588c3
+timeCreated: 1499628449
+=======
 guid: 368f9c5860d4fdd4db4e76c7e786643d
 timeCreated: 1499627618
+>>>>>>> e2cb459dfe65dc2458fecfb5ecabb0725300359b:Assets/StreamingAssets/Audio.meta~1172280b57c705b61c20a087255c19d669a4a46a.meta~b1e3dc614e890aba3735ca685f170c841250fa51.meta
 licenseType: Free
 DefaultImporter:
   userData: 

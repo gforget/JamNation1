@@ -17,12 +17,17 @@ MonoBehaviour:
     ParentPhysicalPath: 
     Guid: '{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}'
 <<<<<<< HEAD
+    m_lastTimePsrt1: 1838398047
+    m_lastTimePart2: -1999321344
+=======
+<<<<<<< HEAD
     m_lastTimePsrt1: 127137946
     m_lastTimePart2: -1999321348
 =======
     m_lastTimePsrt1: -1694134468
     m_lastTimePart2: -1999321347
 >>>>>>> 889aa77176b38ac87fc5fa63c01e724aa170947b
+>>>>>>> e2cb459dfe65dc2458fecfb5ecabb0725300359b
     List:
     - Name: Ambiance_start
       Path: Default Work Unit\Ambiance_start
@@ -351,12 +356,17 @@ MonoBehaviour:
     ParentPhysicalPath: 
     Guid: '{23C8CB3C-C917-48F9-806A-0888C0397D71}'
 <<<<<<< HEAD
+    m_lastTimePsrt1: 1847268554
+    m_lastTimePart2: -1999321344
+=======
+<<<<<<< HEAD
     m_lastTimePsrt1: 135328944
     m_lastTimePart2: -1999321348
 =======
     m_lastTimePsrt1: -1686456584
     m_lastTimePart2: -1999321347
 >>>>>>> 889aa77176b38ac87fc5fa63c01e724aa170947b
+>>>>>>> e2cb459dfe65dc2458fecfb5ecabb0725300359b
     List:
     - Name: Reverb
       Path: Default Work Unit\Master Audio Bus\Reverb
@@ -374,12 +384,17 @@ MonoBehaviour:
     ParentPhysicalPath: 
     Guid: '{CEEC1D84-B018-48F1-A40F-70F5EBE1BDB8}'
 <<<<<<< HEAD
+    m_lastTimePsrt1: 1847388561
+    m_lastTimePart2: -1999321344
+=======
+<<<<<<< HEAD
     m_lastTimePsrt1: 135348954
     m_lastTimePart2: -1999321348
 =======
     m_lastTimePsrt1: -1686331560
     m_lastTimePart2: -1999321347
 >>>>>>> 889aa77176b38ac87fc5fa63c01e724aa170947b
+>>>>>>> e2cb459dfe65dc2458fecfb5ecabb0725300359b
     List:
     - Name: Music_Biomes
       Path: Default Work Unit\Music_Biomes
@@ -415,12 +430,17 @@ MonoBehaviour:
     ParentPhysicalPath: 
     Guid: '{47F46374-2122-4C73-823B-07E0165F5315}'
 <<<<<<< HEAD
+    m_lastTimePsrt1: 1384301212
+    m_lastTimePart2: -1999321374
+=======
+<<<<<<< HEAD
     m_lastTimePsrt1: 392404878
     m_lastTimePart2: -1999321379
 =======
     m_lastTimePsrt1: 1601323542
     m_lastTimePart2: -1999321378
 >>>>>>> 889aa77176b38ac87fc5fa63c01e724aa170947b
+>>>>>>> e2cb459dfe65dc2458fecfb5ecabb0725300359b
     List:
     - Name: Surfaces
       Path: Default Work Unit\Surfaces
@@ -448,12 +468,17 @@ MonoBehaviour:
     ParentPhysicalPath: 
     Guid: '{9CBBABD4-E769-4E5E-AC7D-B66EBC1B74E6}'
 <<<<<<< HEAD
+    m_lastTimePsrt1: 1847318557
+    m_lastTimePart2: -1999321344
+=======
+<<<<<<< HEAD
     m_lastTimePsrt1: 135333944
     m_lastTimePart2: -1999321348
 =======
     m_lastTimePsrt1: -1686401661
     m_lastTimePart2: -1999321347
 >>>>>>> 889aa77176b38ac87fc5fa63c01e724aa170947b
+>>>>>>> e2cb459dfe65dc2458fecfb5ecabb0725300359b
     List:
     - Name: JamNATION1
       Path: Default Work Unit\JamNATION1
@@ -464,7 +489,14 @@ MonoBehaviour:
         ObjectType: 7
       ID: 928029035
       Guid: 3b2c8eb259bbe041aea53c33cefb18e6
+<<<<<<< HEAD
+  ExpandedItems:
+  - /JamNation1
+  - /JamNation1/Events
+  - /JamNation1/Events/Default Work Unit
+=======
   ExpandedItems: []
+>>>>>>> e2cb459dfe65dc2458fecfb5ecabb0725300359b
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
