@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 574436500e6874644be846966cfed906, type: 3}
-  m_Name: AkWwiseProjectData 166
+  m_Name: AkWwiseProjectData 169
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
   EventWwu: []
@@ -17,8 +17,7 @@ MonoBehaviour:
   StateWwu: []
   SwitchWwu: []
   BankWwu: []
-  ExpandedItems:
-  - /JamNation1
+  ExpandedItems: []
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

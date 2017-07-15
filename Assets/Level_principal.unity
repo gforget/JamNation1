@@ -11669,7 +11669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetCameraObject: {fileID: 1275856170}
-  baseSpeed: 5
+  baseSpeed: 2
   speedMultiplier: 1
   elevatorMultiplier: 0.3
   currentWaypoint: 0

@@ -257,6 +257,7 @@ public class RunnerController : MonoBehaviour
                     characterState = CharacterState.withEgg;
                     m_EggController.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
                     m_EggController.GetComponent<Rigidbody>().useGravity = false;
+                    m_EggController.IsTaken = true;
                 }
             }
 

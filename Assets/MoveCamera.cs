@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
@@ -20,11 +20,33 @@ public class MoveCamera : MonoBehaviour {
 	void Start () {
 		StartCoroutine("moveToWaypoints");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    // Update is called once per frame
+    Vector3 posA;
+    Vector3 posB;
+    float i;
+
+	void Update ()
+    {
+        // test pour voir la vitesse dans le temps
+        // succes !
+        //if (i%2 == 0)
+        //{
+        //    posA = targetCameraObject.transform.position;
+            
+        //}
+        //else
+        //{
+        //    posB = targetCameraObject.transform.position;
+        //}
+
+        //i++;
+
+        //if (posB != null && posA != null)
+        //{
+        //    Debug.Log((posB-posA).magnitude);
+        //}
+    }
 
 	public IEnumerator moveToWaypoints(){
 		for (int i = 0; i < (waypoints.Length - 1); i++) {
@@ -36,3 +58,5 @@ public class MoveCamera : MonoBehaviour {
 		}
 	}
 }
+
+//nan finalement le script de camera est bon, je pensais que c'etait base sur le temps et que c'etait pour ca que  tu struglais a avoir une valeur juste.
