@@ -14,55 +14,23 @@ public class EggController : MonoBehaviour {
     // Use this for initialization
     MeshRenderer m_Renderer;
 
-    IEnumerator Start ()
-    {
-        while (GameManager.instance == null) yield return null;
-        Init();
-    }
-
-    private void Init()
+    private void Awake()
     {
         m_RigidBody = GetComponent<Rigidbody>();
         TrailRenderer = GetComponent<TrailRenderer>();
 
         m_Renderer = GetComponent<MeshRenderer>();
-        GameManager.instance.AddEgg(this);
     }
 
     private void OnDestroy()
     {
-        GameManager.instance.RemoveEgg(this);
+       if (GameManager.instance != null) GameManager.instance.RemoveEgg(this);
     }
 
-    bool m_TrailActive
-    {
-        get
-        {
-            return _m_TrailActive;
-        }
-
-        set
-        {
-            bool prevValue = _m_TrailActive;
-            _m_TrailActive = value;
-
-            if (_m_TrailActive == prevValue) return;
-
-            TrailRenderer.enabled = _m_TrailActive;
-
-            if (_m_TrailActive)
-            {
-                AkSoundEngine.PostEvent("SFX_Eggs_Speed", gameObject);
-            }
-        }
-    }
-
-    bool _m_TrailActive;
     bool m_HaveBeenVisible = false;
 
     private void Update()
     {
-        m_TrailActive = true;
 
         if (m_Renderer.isVisible) m_HaveBeenVisible = true;
         if (!m_Renderer.isVisible && m_HaveBeenVisible)

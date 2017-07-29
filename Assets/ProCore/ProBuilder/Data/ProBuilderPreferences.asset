@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Bool_keys:
   - pbIconGUI
+  - pbCheckForProBuilderUpdates
   m_Int_keys:
   - pbHandleAlignment
   - pbDefaultEditLevel
@@ -23,14 +24,16 @@ MonoBehaviour:
   - pbEditorScroll.y
   m_String_keys:
   - pbCurrentMaterialPalette
+  - pbLastWebVersionChecked
   m_Color_keys: []
   m_Material_keys: []
-  m_Bool_values: 01
+  m_Bool_values: 0101
   m_Int_values: 00000000010000000200000000000000
   m_Float_values:
   - 0
   - 0
   m_String_values:
   - Assets/ProCore/ProBuilder/Data/Default Material Palette.asset
+  - 2.9.3f0
   m_Color_values: []
   m_Material_values: []

@@ -53,6 +53,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   biome: 0
   EggPrefab: {fileID: 1238541233674244, guid: 81b0cd4a4c370824b8761b722e0a2318, type: 2}
-  eggControllers: []
+  MainCanvas: {fileID: 0}
+  Player1Text: {fileID: 0}
+  Player2Text: {fileID: 0}
+  Player3Text: {fileID: 0}
+  Player4Text: {fileID: 0}
   cavernLight: 0
   dirLight: {fileID: 0}

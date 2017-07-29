@@ -33,6 +33,29 @@ public class RunnerController : MonoBehaviour
 
     public SkinnedMeshRenderer m_Renderer;
 
+    public bool m_ControllerLock
+    {
+        get
+        {
+            return _m_ControllerLock;
+        }
+
+        set
+        {
+            _m_ControllerLock = value;
+            if (_m_ControllerLock)
+            {
+                m_Animator.SetBool("grounded", true);
+                m_Animator.SetBool("haveEgg", characterState == CharacterState.withEgg);
+                m_Animator.SetFloat("XVelocity", 0f);
+                m_Animator.SetFloat("YVelocity", 0f);
+            }
+        }
+    }
+
+    private bool m_invulnaribility = false;
+    private bool _m_ControllerLock = false;
+
     public CharacterState characterState
     {
         get
@@ -58,13 +81,6 @@ public class RunnerController : MonoBehaviour
 
             if (m_CharacterState == CharacterState.withoutEgg)
             {
-                
-                if (_prevState == CharacterState.withEgg)
-                {
-                    AkSoundEngine.PostEvent("P"+ m_PlayerIndex + "_Oops", gameObject);
-                    m_EggController.LaunchEgg((transform.forward * Random.Range(0.0f, 1.0f) + transform.up*Random.Range(0.0f, 1.0f)) * m_BaseThrowEgg);
-                }
-
                 m_SpeedX = m_SpeedWithoutEgg;
                 m_JumpInitialVelocity = m_JumpWithoutEgg;
             }
@@ -101,6 +117,7 @@ public class RunnerController : MonoBehaviour
     // Use this for initialization
     void Awake ()
     {
+        GameManager.instance.AddRunner(this);
         m_Gamepad = GamepadManager.Instance.GetGamepad(m_PlayerIndex);
 
         m_Controller = GetComponent<CharacterController>();
@@ -115,13 +132,22 @@ public class RunnerController : MonoBehaviour
         StartCoroutine(EggHitDetection());
         StartCoroutine(DetectConnected());
     }
-    
+
+    private void OnDestroy()
+    {
+        GameManager.instance.RemoveRunner(this);
+    }
+
     IEnumerator DetectConnected()
     {
         yield return new WaitForEndOfFrame();
-        if (m_Gamepad.IsConnected == false)
+        if (!GlobalVariables.m_PlayerActives[m_PlayerIndex - 1] || !m_Gamepad.IsConnected)
         {
             Destroy(gameObject);
+        }
+        else
+        {
+            GameManager.instance.AddEgg(m_EggController);
         }
     }
 
@@ -149,9 +175,15 @@ public class RunnerController : MonoBehaviour
     bool _m_JumpAirDelayed = false;
     bool m_HaveBeenGrounded = false;
 
+    public void ReleaseEgg()
+    {
+        AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Oops", gameObject);
+        m_EggController.LaunchEgg((transform.forward * Random.Range(0.0f, 1.0f) + transform.up * Random.Range(0.0f, 1.0f)) * m_BaseThrowEgg);
+    }
+
     private void Update()
     {
-        if (!m_Gamepad.IsConnected || characterState == CharacterState.Death) return;
+        if (!m_Gamepad.IsConnected || characterState == CharacterState.Death || m_ControllerLock) return;
 
         if (m_Gamepad.GetButtonDown("A") && (m_Controller.isGrounded || m_JumpAirDelayed))
         {
@@ -166,8 +198,10 @@ public class RunnerController : MonoBehaviour
             if (characterState == CharacterState.withEgg)
             {
                 AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Throw", gameObject);
-                characterState = CharacterState.withoutEgg;
+                m_Animator.SetTrigger("Toss");
+
                 m_EggController.LaunchEgg((transform.forward * m_Gamepad.GetStick_L().X * lookAtDirection + transform.up * m_Gamepad.GetStick_L().Y) * m_BaseThrowEgg);
+                characterState = CharacterState.withoutEgg;
             }
         }
 
@@ -185,7 +219,8 @@ public class RunnerController : MonoBehaviour
 
         //quick fix to resolve the first frame where the camera dont render the players
         if (m_Renderer.isVisible) m_HaveBeenVisible = true;
-        if (!m_Renderer.isVisible && m_HaveBeenVisible)
+        Debug.Log(m_Renderer.isVisible);
+        if (!m_Renderer.isVisible && m_HaveBeenVisible && !m_invulnaribility)
         {
             characterState = CharacterState.Death;
         } 
@@ -202,7 +237,7 @@ public class RunnerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!m_Gamepad.IsConnected || characterState == CharacterState.Death) return;
+        if (!m_Gamepad.IsConnected || characterState == CharacterState.Death || m_ControllerLock) return;
 
         m_XVelocity = m_Gamepad.GetStick_L().X * m_SpeedX;
         m_YVelocity -= m_Gravity;
@@ -226,6 +261,12 @@ public class RunnerController : MonoBehaviour
         m_Animator.SetFloat("YVelocity", m_YVelocity);
     }
 
+    IEnumerator StopInvulnerability()
+    {
+        yield return new WaitForSeconds(1.0f);
+        m_invulnaribility = false;
+    }
+
     IEnumerator RespawnCoroutine()
     {
         yield return new WaitForSeconds(m_TimeRespawn);
@@ -233,6 +274,8 @@ public class RunnerController : MonoBehaviour
         Vector3 spawnPosition = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y+5.0f, m_BeginZ);
         transform.position = spawnPosition;
         characterState = CharacterState.withoutEgg;
+        m_invulnaribility = true;
+        StartCoroutine(StopInvulnerability());
     }
 
     private int m_LayerMask = 1 << 10;

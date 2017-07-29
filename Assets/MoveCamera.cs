@@ -7,9 +7,6 @@ public class MoveCamera : MonoBehaviour {
 
 	public GameObject targetCameraObject;
 	public float baseSpeed;
-	public float speedMultiplier;
-
-	public float elevatorMultiplier;
 
 	public int currentWaypoint;
 	public Transform[] waypoints;
@@ -51,12 +48,10 @@ public class MoveCamera : MonoBehaviour {
 	public IEnumerator moveToWaypoints(){
 		for (int i = 0; i < (waypoints.Length - 1); i++) {
 			distance = Vector3.Distance(targetCameraObject.transform.position, waypoints[currentWaypoint + 1].position);
-			travelTime = distance / (baseSpeed * speedMultiplier);
+            travelTime = distance / (waypoints[currentWaypoint].GetComponent<WayPoint>().m_CameraSpeed);
 			Tween myTween = targetCameraObject.GetComponent<Transform>().DOMove(new Vector3(waypoints[currentWaypoint + 1].position.x, waypoints[currentWaypoint + 1].position.y, waypoints[currentWaypoint + 1].position.z), travelTime, false).SetEase(Ease.Linear);
 			yield return myTween.WaitForCompletion();
 			currentWaypoint++;
 		}
 	}
 }
-
-//nan finalement le script de camera est bon, je pensais que c'etait base sur le temps et que c'etait pour ca que  tu struglais a avoir une valeur juste.
