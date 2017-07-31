@@ -485,6 +485,43 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Sounds_Off" ID="{992A3826-BE1C-4260-93F5-8E584623972C}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{D09BA4D6-646C-4787-9294-99513DB7B2E9}" ShortID="678906462" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{2473B694-32BD-44EC-87B9-72ADC0D63AE2}" Global="false">
+									<ObjectRef Name="AMB_Jungle" ID="{DC86678C-0665-4EBC-B153-51B294DE526B}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{A2B7FE29-49D7-4B03-9D67-71C2AB44754B}" ShortID="647728704" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B3938C18-A177-4CA2-B1F1-E4EABBB579F4}" Global="false">
+									<ObjectRef Name="AMB_Village" ID="{60F9841C-F6FC-455E-8E70-8EB787F3D04C}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{810B1884-0DD0-4E3C-B03E-376BB2021E75}" ShortID="679201735" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{8FA9312A-3199-431B-9B3F-30C40048A8C6}" Global="false">
+									<ObjectRef Name="MUS_Level" ID="{093BDF02-AAFF-4D23-BC3C-5B8B602ABB36}" WorkUnitID="{FC0537DB-7DFC-4846-B738-A2632CCFA454}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
