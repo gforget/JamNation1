@@ -25,6 +25,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3062786871	SFX_P4_Dying			\Default Work Unit\P4\SFX_P4_Dying	
 	3419501818	P1_Dying			\Default Work Unit\P1\P1_Dying	
 	3459086025	SFX_Eggs_Breaking			\Default Work Unit\SFX_Eggs_Breaking	
+	3596722615	Sounds_Off			\Default Work Unit\Sounds_Off	
 	3833726988	Mountain_Jungle			\Default Work Unit\Mountain_Jungle	
 	3865666512	SFX_P3_Dying			\Default Work Unit\P3\SFX_P3_Dying	
 

@@ -44,6 +44,7 @@
 				<Event Id="2557209752" Name="SFX_P4_Jump" ObjectPath="\Events\Default Work Unit\P4\SFX_P4_Jump"/>
 				<Event Id="968454069" Name="SFX_P4_Oops" ObjectPath="\Events\Default Work Unit\P4\SFX_P4_Oops"/>
 				<Event Id="738150556" Name="SFX_P4_Throw" ObjectPath="\Events\Default Work Unit\P4\SFX_P4_Throw"/>
+				<Event Id="3596722615" Name="Sounds_Off" ObjectPath="\Events\Default Work Unit\Sounds_Off"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="2794092" Language="SFX">

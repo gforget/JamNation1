@@ -41,6 +41,7 @@ namespace AK
         static const AkUniqueID SFX_P4_JUMP = 2557209752U;
         static const AkUniqueID SFX_P4_OOPS = 968454069U;
         static const AkUniqueID SFX_P4_THROW = 738150556U;
+        static const AkUniqueID SOUNDS_OFF = 3596722615U;
     } // namespace EVENTS
 
     namespace STATES

@@ -15,6 +15,7 @@
 						<ObjectRef Name="Ambiances" ID="{B49F0F60-DBB8-41DA-BECB-13E9B6D168F0}" WorkUnitID="{40ACB654-4566-4A7F-B951-6D5566824831}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P1_Oops" ID="{846FDAEB-43EE-4247-98A1-7FD149B86D2C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="P2_Oops" ID="{CD1D3FD7-765E-4252-8E28-6080EBE3679A}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Sounds_Off" ID="{992A3826-BE1C-4260-93F5-8E584623972C}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MUS_Level_Jungle" ID="{B6047848-48A2-42B4-8B05-415A07F8AF3D}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_Eggs_Catching" ID="{219B6880-A5BA-4431-BF9D-07B8A061EE34}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MUS_Level_Play" ID="{94B841D2-45B1-453B-87D3-0CE20FB5F4FC}" WorkUnitID="{7E19DEEA-19B6-41B7-9D71-5F7A7D721C4B}" Filter="7" Origin="Manual"/>

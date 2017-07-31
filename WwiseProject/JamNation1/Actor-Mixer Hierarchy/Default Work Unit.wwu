@@ -200,6 +200,9 @@
 														<AudioFileSource Name="Roars-003" ID="{B82D707D-510F-47D9-B1CF-08EB728AFD64}" ShortID="967692355">
 															<Language>SFX</Language>
 															<AudioFile>Roars-003.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File Platform="Mac" ID="702070635"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -320,6 +323,9 @@
 														<AudioFileSource Name="Roars-006" ID="{9A4CBC3E-D607-4ED3-B758-2B210A6D1A2C}" ShortID="954873738">
 															<Language>SFX</Language>
 															<AudioFile>Roars-006.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File Platform="Mac" ID="791800992"/>
+															</ConvertedFileIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -4065,7 +4071,7 @@
 									<Language>SFX</Language>
 									<AudioFile>Roars-003.wav</AudioFile>
 									<ConvertedFileIDList>
-										<File ID="967692355"/>
+										<File Platform="Windows" ID="967692355"/>
 									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -4209,7 +4215,7 @@
 									<Language>SFX</Language>
 									<AudioFile>Roars-006.wav</AudioFile>
 									<ConvertedFileIDList>
-										<File ID="954873738"/>
+										<File Platform="Windows" ID="954873738"/>
 									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>

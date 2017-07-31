@@ -4,12 +4,25 @@
 		<Banks>
 			<Language ID="0">
 				<File Name="Init" Hash="1614620581" Timestamp="131441017610000000"/>
-				<File Name="JamNATION1" Hash="1077259992" Timestamp="131441032420000000"/>
+				<File Name="JamNATION1" Hash="3729403929" Timestamp="131459972730000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1475350510" Timestamp="131441032420000000"/>
+				<File Name="" Hash="4285349209" Timestamp="131459972730000000"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{ECE15797-2557-4CDE-B74D-B9F9963621D0}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Init" Hash="3482390739" Timestamp="131459972720000000"/>
+				<File Name="JamNATION1" Hash="3130757151" Timestamp="131459972720000000"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3308838874" Timestamp="131459972720000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
