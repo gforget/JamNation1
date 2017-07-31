@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="240381544">
+<IncrementalBankBuild Version="6" Flags="878078161">
 	<Platform GUID="{44B61C81-FE8C-4CD3-A878-B590FF8A50F9}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Init" Hash="1614620581" Timestamp="131441017610000000"/>
-				<File Name="JamNATION1" Hash="3729403929" Timestamp="131459972730000000"/>
+				<File Name="Init" Hash="1614620581" Timestamp="131459984795660628"/>
+				<File Name="JamNATION1" Hash="2972460477" Timestamp="131459984795535539"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4285349209" Timestamp="131459972730000000"/>
+				<File Name="" Hash="218977370" Timestamp="131459984795700649"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{ECE15797-2557-4CDE-B74D-B9F9963621D0}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Init" Hash="3482390739" Timestamp="131459972720000000"/>
-				<File Name="JamNATION1" Hash="3130757151" Timestamp="131459972720000000"/>
+				<File Name="Init" Hash="3482390739" Timestamp="131459984776474707"/>
+				<File Name="JamNATION1" Hash="3375974535" Timestamp="131459984776344621"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3308838874" Timestamp="131459972720000000"/>
+				<File Name="" Hash="2664665941" Timestamp="131459984776514743"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

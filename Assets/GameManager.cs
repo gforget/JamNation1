@@ -91,6 +91,7 @@ public class GameManager : MonoBehaviour {
         if (GamepadManager.Instance.GetButtonDownAny("Start"))
         {
             SceneManager.LoadScene("SplashScreen", LoadSceneMode.Single);
+            AkSoundEngine.PostEvent("Sounds_Off", gameObject);
         }
     }
 

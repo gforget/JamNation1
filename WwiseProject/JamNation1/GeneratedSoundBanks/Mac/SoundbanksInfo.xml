@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>D:\Projet Unity\JamNation1\WwiseProject\JamNation1\</ProjectRoot>
+		<SourceFilesRoot>D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Projet Unity\JamNation1\WwiseProject\JamNation1\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Projet Unity\JamNation1\WwiseProject\JamNation1\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="928029035" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\JamNATION1</ObjectPath>
+			<ShortName>JamNATION1</ShortName>
+			<Path>JamNATION1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="778605252" Name="Ambiance_start" ObjectPath="\Events\Default Work Unit\Ambiance_start"/>
+				<Event Id="1201886138" Name="Cave_Beach" ObjectPath="\Events\Default Work Unit\Cave_Beach"/>
+				<Event Id="1240468467" Name="FS_Players" ObjectPath="\Events\Default Work Unit\FS_Players"/>
+				<Event Id="2566409294" Name="Jungle_Cave" ObjectPath="\Events\Default Work Unit\Jungle_Cave"/>
+				<Event Id="3833726988" Name="Mountain_Jungle" ObjectPath="\Events\Default Work Unit\Mountain_Jungle"/>
+				<Event Id="493090309" Name="MUS_Level_Grotto" ObjectPath="\Events\Default Work Unit\MUS_Level_Grotto" MaxAttenuation="0.000000"/>
+				<Event Id="1099710263" Name="MUS_Level_Jungle" ObjectPath="\Events\Default Work Unit\MUS_Level_Jungle" MaxAttenuation="0.000000"/>
+				<Event Id="457485834" Name="MUS_Level_Play" ObjectPath="\Events\Default Work Unit\MUS_Level_Play"/>
+				<Event Id="3419501818" Name="P1_Dying" ObjectPath="\Events\Default Work Unit\P1\P1_Dying"/>
+				<Event Id="150832419" Name="P1_Jump" ObjectPath="\Events\Default Work Unit\P1\P1_Jump"/>
+				<Event Id="1912722926" Name="P1_Oops" ObjectPath="\Events\Default Work Unit\P1\P1_Oops"/>
+				<Event Id="1022741657" Name="P1_Throw" ObjectPath="\Events\Default Work Unit\P1\P1_Throw"/>
+				<Event Id="104172609" Name="P2_Dying" ObjectPath="\Events\Default Work Unit\P2\P2_Dying"/>
+				<Event Id="2155174042" Name="P2_Jump" ObjectPath="\Events\Default Work Unit\P2\P2_Jump"/>
+				<Event Id="1372435655" Name="P2_Oops" ObjectPath="\Events\Default Work Unit\P2\P2_Oops"/>
+				<Event Id="1424313346" Name="P2_Throw" ObjectPath="\Events\Default Work Unit\P2\P2_Throw"/>
+				<Event Id="3459086025" Name="SFX_Eggs_Breaking" ObjectPath="\Events\Default Work Unit\SFX_Eggs_Breaking"/>
+				<Event Id="1220082869" Name="SFX_Eggs_Catching" ObjectPath="\Events\Default Work Unit\SFX_Eggs_Catching"/>
+				<Event Id="544795564" Name="SFX_Eggs_Impact" ObjectPath="\Events\Default Work Unit\SFX_Eggs_Impact"/>
+				<Event Id="1561691771" Name="SFX_Eggs_Speed" ObjectPath="\Events\Default Work Unit\SFX_Eggs_Speed"/>
+				<Event Id="3865666512" Name="SFX_P3_Dying" ObjectPath="\Events\Default Work Unit\P3\SFX_P3_Dying"/>
+				<Event Id="2705956761" Name="SFX_P3_Jump" ObjectPath="\Events\Default Work Unit\P3\SFX_P3_Jump"/>
+				<Event Id="2028292196" Name="SFX_P3_Oops" ObjectPath="\Events\Default Work Unit\P3\SFX_P3_Oops"/>
+				<Event Id="1895335531" Name="SFX_P3_Throw" ObjectPath="\Events\Default Work Unit\P3\SFX_P3_Throw"/>
+				<Event Id="3062786871" Name="SFX_P4_Dying" ObjectPath="\Events\Default Work Unit\P4\SFX_P4_Dying"/>
+				<Event Id="2557209752" Name="SFX_P4_Jump" ObjectPath="\Events\Default Work Unit\P4\SFX_P4_Jump"/>
+				<Event Id="968454069" Name="SFX_P4_Oops" ObjectPath="\Events\Default Work Unit\P4\SFX_P4_Oops"/>
+				<Event Id="738150556" Name="SFX_P4_Throw" ObjectPath="\Events\Default Work Unit\P4\SFX_P4_Throw"/>
+				<Event Id="3596722615" Name="Sounds_Off" ObjectPath="\Events\Default Work Unit\Sounds_Off" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="2794092" Language="SFX">
+					<ShortName>SFX_P4_Dying01.wav</ShortName>
+					<Path>SFX\SFX_P4_Dying01_9E69E797.wem</Path>
+				</File>
+				<File Id="7790226" Language="SFX">
+					<ShortName>Oops1.2.wav</ShortName>
+					<Path>SFX\Oops1.2_9E69E797.wem</Path>
+				</File>
+				<File Id="14873747" Language="SFX">
+					<ShortName>Dying1.5.wav</ShortName>
+					<Path>SFX\Dying1.5_9E69E797.wem</Path>
+				</File>
+				<File Id="16221165" Language="SFX">
+					<ShortName>SFX_P4_Throw04.wav</ShortName>
+					<Path>SFX\SFX_P4_Throw04_9E69E797.wem</Path>
+				</File>
+				<File Id="27508780" Language="SFX">
+					<ShortName>Catch-egg-003.wav</ShortName>
+					<Path>SFX\Catch-egg-003_9E69E797.wem</Path>
+				</File>
+				<File Id="36245745" Language="SFX">
+					<ShortName>Dying1.7.wav</ShortName>
+					<Path>SFX\Dying1.7_9E69E797.wem</Path>
+				</File>
+				<File Id="36830716" Language="SFX">
+					<ShortName>Throw1.6.wav</ShortName>
+					<Path>SFX\Throw1.6_9E69E797.wem</Path>
+				</File>
+				<File Id="62902695" Language="SFX">
+					<ShortName>Catch-egg-001.wav</ShortName>
+					<Path>SFX\Catch-egg-001_9E69E797.wem</Path>
+				</File>
+				<File Id="64865295" Language="SFX">
+					<ShortName>Jump2-002.wav</ShortName>
+					<Path>SFX\Jump2-002_9E69E797.wem</Path>
+				</File>
+				<File Id="91161987" Language="SFX">
+					<ShortName>Oops2-005.wav</ShortName>
+					<Path>SFX\Oops2-005_9E69E797.wem</Path>
+				</File>
+				<File Id="99470559" Language="SFX">
+					<ShortName>02Glue.wav</ShortName>
+					<Path>SFX\02Glue_9E69E797.wem</Path>
+				</File>
+				<File Id="103563836" Language="SFX">
+					<ShortName>AMB_River.wav</ShortName>
+					<Path>SFX\AMB_River_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="126832937" Language="SFX">
+					<ShortName>Jump1.3.wav</ShortName>
+					<Path>SFX\Jump1.3_9E69E797.wem</Path>
+				</File>
+				<File Id="134099175" Language="SFX">
+					<ShortName>Catch-egg-002.wav</ShortName>
+					<Path>SFX\Catch-egg-002_32A17CE9.wem</Path>
+				</File>
+				<File Id="137136896" Language="SFX">
+					<ShortName>MUS_Level_Grotte2.wav</ShortName>
+					<Path>SFX\MUS_Level_Grotte2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="142788065" Language="SFX">
+					<ShortName>Oops1.1.wav</ShortName>
+					<Path>SFX\Oops1.1_9E69E797.wem</Path>
+				</File>
+				<File Id="157561799" Language="SFX">
+					<ShortName>Oops2-002.wav</ShortName>
+					<Path>SFX\Oops2-002_9E69E797.wem</Path>
+				</File>
+				<File Id="160753004" Language="SFX">
+					<ShortName>SFX_Eagle_Cris03.wav</ShortName>
+					<Path>SFX\SFX_Eagle_Cris03_9E69E797.wem</Path>
+				</File>
+				<File Id="176228745" Language="SFX">
+					<ShortName>Oops1.6.wav</ShortName>
+					<Path>SFX\Oops1.6_9E69E797.wem</Path>
+				</File>
+				<File Id="207249369" Language="SFX">
+					<ShortName>Birds1.wav</ShortName>
+					<Path>SFX\Birds1_9E69E797.wem</Path>
+				</File>
+				<File Id="207984638" Language="SFX">
+					<ShortName>SFX_P4_Oops02.wav</ShortName>
+					<Path>SFX\SFX_P4_Oops02_9E69E797.wem</Path>
+				</File>
+				<File Id="211549758" Language="SFX">
+					<ShortName>SFX_P4_Oops03.wav</ShortName>
+					<Path>SFX\SFX_P4_Oops03_9E69E797.wem</Path>
+				</File>
+				<File Id="211616883" Language="SFX">
+					<ShortName>Dying1.4.wav</ShortName>
+					<Path>SFX\Dying1.4_9E69E797.wem</Path>
+				</File>
+				<File Id="227321394" Language="SFX">
+					<ShortName>SFX_P4_Jump04.wav</ShortName>
+					<Path>SFX\SFX_P4_Jump04_9E69E797.wem</Path>
+				</File>
+				<File Id="227853349" Language="SFX">
+					<ShortName>FS_Grass_Rear02.wav</ShortName>
+					<Path>SFX\FS_Grass_Rear02_9E69E797.wem</Path>
+				</File>
+				<File Id="229070333" Language="SFX">
+					<ShortName>04Glue.wav</ShortName>
+					<Path>SFX\04Glue_9E69E797.wem</Path>
+				</File>
+				<File Id="230369024" Language="SFX">
+					<ShortName>Oops2-003.wav</ShortName>
+					<Path>SFX\Oops2-003_9E69E797.wem</Path>
+				</File>
+				<File Id="240691787" Language="SFX">
+					<ShortName>Break-egg1.wav</ShortName>
+					<Path>SFX\Break-egg1_9E69E797.wem</Path>
+				</File>
+				<File Id="250981103" Language="SFX">
+					<ShortName>Birds2.wav</ShortName>
+					<Path>SFX\Birds2_9E69E797.wem</Path>
+				</File>
+				<File Id="254843072" Language="SFX">
+					<ShortName>Jump2-006.wav</ShortName>
+					<Path>SFX\Jump2-006_9E69E797.wem</Path>
+				</File>
+				<File Id="265597687" Language="SFX">
+					<ShortName>SFX_P3_Oops02.wav</ShortName>
+					<Path>SFX\SFX_P3_Oops02_9E69E797.wem</Path>
+				</File>
+				<File Id="269130374" Language="SFX">
+					<ShortName>SFX_Eggs_Speed01.wav</ShortName>
+					<Path>SFX\SFX_Eggs_Speed01_9E69E797.wem</Path>
+				</File>
+				<File Id="274649596" Language="SFX">
+					<ShortName>FS_Dirt_Front01.wav</ShortName>
+					<Path>SFX\FS_Dirt_Front01_9E69E797.wem</Path>
+				</File>
+				<File Id="291133565" Language="SFX">
+					<ShortName>Oops2-006.wav</ShortName>
+					<Path>SFX\Oops2-006_9E69E797.wem</Path>
+				</File>
+				<File Id="309886106" Language="SFX">
+					<ShortName>Dying2-001.wav</ShortName>
+					<Path>SFX\Dying2-001_9E69E797.wem</Path>
+				</File>
+				<File Id="335844138" Language="SFX">
+					<ShortName>SFX_P4_Jump03.wav</ShortName>
+					<Path>SFX\SFX_P4_Jump03_9E69E797.wem</Path>
+				</File>
+				<File Id="339886118" Language="SFX">
+					<ShortName>SFX_P3_Jump04.wav</ShortName>
+					<Path>SFX\SFX_P3_Jump04_9E69E797.wem</Path>
+				</File>
+				<File Id="339911377" Language="SFX">
+					<ShortName>RiresBis.wav</ShortName>
+					<Path>SFX\RiresBis_9E69E797.wem</Path>
+				</File>
+				<File Id="342186951" Language="SFX">
+					<ShortName>SFX_P4_Jump01.wav</ShortName>
+					<Path>SFX\SFX_P4_Jump01_9E69E797.wem</Path>
+				</File>
+				<File Id="344249088" Language="SFX">
+					<ShortName>Jump1.1.wav</ShortName>
+					<Path>SFX\Jump1.1_9E69E797.wem</Path>
+				</File>
+				<File Id="345994468" Language="SFX">
+					<ShortName>Oops1.5.wav</ShortName>
+					<Path>SFX\Oops1.5_9E69E797.wem</Path>
+				</File>
+				<File Id="349305849" Language="SFX">
+					<ShortName>Throw1.4.wav</ShortName>
+					<Path>SFX\Throw1.4_9E69E797.wem</Path>
+				</File>
+				<File Id="354195372" Language="SFX">
+					<ShortName>Oops2-001.wav</ShortName>
+					<Path>SFX\Oops2-001_9E69E797.wem</Path>
+				</File>
+				<File Id="356223386" Language="SFX">
+					<ShortName>Break-egg3.wav</ShortName>
+					<Path>SFX\Break-egg3_9E69E797.wem</Path>
+				</File>
+				<File Id="362193963" Language="SFX">
+					<ShortName>SFX_P4_Jump02.wav</ShortName>
+					<Path>SFX\SFX_P4_Jump02_9E69E797.wem</Path>
+				</File>
+				<File Id="365130271" Language="SFX">
+					<ShortName>SFX_P3_Dying01.wav</ShortName>
+					<Path>SFX\SFX_P3_Dying01_9E69E797.wem</Path>
+				</File>
+				<File Id="366209240" Language="SFX">
+					<ShortName>Roars-002.wav</ShortName>
+					<Path>SFX\Roars-002_9E69E797.wem</Path>
+				</File>
+				<File Id="367192116" Language="SFX">
+					<ShortName>Dying2-002.wav</ShortName>
+					<Path>SFX\Dying2-002_9E69E797.wem</Path>
+				</File>
+				<File Id="383758725" Language="SFX">
+					<ShortName>SFX_P4_Throw03.wav</ShortName>
+					<Path>SFX\SFX_P4_Throw03_9E69E797.wem</Path>
+				</File>
+				<File Id="384835817" Language="SFX">
+					<ShortName>AMB_Grotto.wav</ShortName>
+					<Path>SFX\AMB_Grotto_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="393363518" Language="SFX">
+					<ShortName>Birds3.wav</ShortName>
+					<Path>SFX\Birds3_9E69E797.wem</Path>
+				</File>
+				<File Id="403061384" Language="SFX">
+					<ShortName>Throw1.1.wav</ShortName>
+					<Path>SFX\Throw1.1_9E69E797.wem</Path>
+				</File>
+				<File Id="404386752" Language="SFX">
+					<ShortName>Roars-005.wav</ShortName>
+					<Path>SFX\Roars-005_9E69E797.wem</Path>
+				</File>
+				<File Id="404987771" Language="SFX">
+					<ShortName>Birds5.wav</ShortName>
+					<Path>SFX\Birds5_9E69E797.wem</Path>
+				</File>
+				<File Id="413592695" Language="SFX">
+					<ShortName>Oops2-007.wav</ShortName>
+					<Path>SFX\Oops2-007_9E69E797.wem</Path>
+				</File>
+				<File Id="417149169" Language="SFX">
+					<ShortName>FS_Dirt_Front02.wav</ShortName>
+					<Path>SFX\FS_Dirt_Front02_9E69E797.wem</Path>
+				</File>
+				<File Id="421743798" Language="SFX">
+					<ShortName>Throw2-002.wav</ShortName>
+					<Path>SFX\Throw2-002_9E69E797.wem</Path>
+				</File>
+				<File Id="435390240" Language="SFX">
+					<ShortName>SFX_P3_Throw04.wav</ShortName>
+					<Path>SFX\SFX_P3_Throw04_9E69E797.wem</Path>
+				</File>
+				<File Id="441706006" Language="SFX">
+					<ShortName>03Glue.wav</ShortName>
+					<Path>SFX\03Glue_9E69E797.wem</Path>
+				</File>
+				<File Id="463214926" Language="SFX">
+					<ShortName>SFX_P3_Oops01.wav</ShortName>
+					<Path>SFX\SFX_P3_Oops01_9E69E797.wem</Path>
+				</File>
+				<File Id="467641348" Language="SFX">
+					<ShortName>SFX_P4_Throw02.wav</ShortName>
+					<Path>SFX\SFX_P4_Throw02_9E69E797.wem</Path>
+				</File>
+				<File Id="473115581" Language="SFX">
+					<ShortName>SFX_P4_Dying03.wav</ShortName>
+					<Path>SFX\SFX_P4_Dying03_9E69E797.wem</Path>
+				</File>
+				<File Id="477978818" Language="SFX">
+					<ShortName>SFX_P3_Oops04.wav</ShortName>
+					<Path>SFX\SFX_P3_Oops04_9E69E797.wem</Path>
+				</File>
+				<File Id="480041045" Language="SFX">
+					<ShortName>Catch-egg-004.wav</ShortName>
+					<Path>SFX\Catch-egg-004_CFFD903B.wem</Path>
+				</File>
+				<File Id="481611726" Language="SFX">
+					<ShortName>Monkey-004.wav</ShortName>
+					<Path>SFX\Monkey-004_9E69E797.wem</Path>
+				</File>
+				<File Id="489373370" Language="SFX">
+					<ShortName>Birds4.wav</ShortName>
+					<Path>SFX\Birds4_9E69E797.wem</Path>
+				</File>
+				<File Id="490145527" Language="SFX">
+					<ShortName>SFX_P3_Dying04.wav</ShortName>
+					<Path>SFX\SFX_P3_Dying04_9E69E797.wem</Path>
+				</File>
+				<File Id="497292872" Language="SFX">
+					<ShortName>Roars-001.wav</ShortName>
+					<Path>SFX\Roars-001_9E69E797.wem</Path>
+				</File>
+				<File Id="519311887" Language="SFX">
+					<ShortName>Jump2-004.wav</ShortName>
+					<Path>SFX\Jump2-004_9E69E797.wem</Path>
+				</File>
+				<File Id="530571175" Language="SFX">
+					<ShortName>Monkey-001.wav</ShortName>
+					<Path>SFX\Monkey-001_9E69E797.wem</Path>
+				</File>
+				<File Id="540591690" Language="SFX">
+					<ShortName>MUS_Level_Mountain.wav</ShortName>
+					<Path>SFX\MUS_Level_Mountain_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="541267717" Language="SFX">
+					<ShortName>01Catch_Effect.wav</ShortName>
+					<Path>SFX\01Catch_Effect_9E69E797.wem</Path>
+				</File>
+				<File Id="557999596" Language="SFX">
+					<ShortName>Dying1.1.wav</ShortName>
+					<Path>SFX\Dying1.1_9E69E797.wem</Path>
+				</File>
+				<File Id="560090652" Language="SFX">
+					<ShortName>Oops1.3.wav</ShortName>
+					<Path>SFX\Oops1.3_9E69E797.wem</Path>
+				</File>
+				<File Id="563756184" Language="SFX">
+					<ShortName>SFX_P3_Dying02.wav</ShortName>
+					<Path>SFX\SFX_P3_Dying02_9E69E797.wem</Path>
+				</File>
+				<File Id="570688799" Language="SFX">
+					<ShortName>Dying1.6.wav</ShortName>
+					<Path>SFX\Dying1.6_9E69E797.wem</Path>
+				</File>
+				<File Id="574506545" Language="SFX">
+					<ShortName>Oops2-004.wav</ShortName>
+					<Path>SFX\Oops2-004_9E69E797.wem</Path>
+				</File>
+				<File Id="579877712" Language="SFX">
+					<ShortName>Catch-egg-004.wav</ShortName>
+					<Path>SFX\Catch-egg-004_9E69E797.wem</Path>
+				</File>
+				<File Id="587827652" Language="SFX">
+					<ShortName>Catch-egg-003.wav</ShortName>
+					<Path>SFX\Catch-egg-003_AD1B0715.wem</Path>
+				</File>
+				<File Id="591674832" Language="SFX">
+					<ShortName>Throw2-006.wav</ShortName>
+					<Path>SFX\Throw2-006_9E69E797.wem</Path>
+				</File>
+				<File Id="594172863" Language="SFX">
+					<ShortName>Monkey-002.wav</ShortName>
+					<Path>SFX\Monkey-002_9E69E797.wem</Path>
+				</File>
+				<File Id="595862749" Language="SFX">
+					<ShortName>AMB_Mountain.wav</ShortName>
+					<Path>SFX\AMB_Mountain_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="600600425" Language="SFX">
+					<ShortName>Throw2-001.wav</ShortName>
+					<Path>SFX\Throw2-001_9E69E797.wem</Path>
+				</File>
+				<File Id="602060054" Language="SFX">
+					<ShortName>SFX_Eagle_Cris02.wav</ShortName>
+					<Path>SFX\SFX_Eagle_Cris02_9E69E797.wem</Path>
+				</File>
+				<File Id="611238068" Language="SFX">
+					<ShortName>SFX_P3_Throw01.wav</ShortName>
+					<Path>SFX\SFX_P3_Throw01_9E69E797.wem</Path>
+				</File>
+				<File Id="612929619" Language="SFX">
+					<ShortName>FS_Grass_Rear01.wav</ShortName>
+					<Path>SFX\FS_Grass_Rear01_9E69E797.wem</Path>
+				</File>
+				<File Id="615702310" Language="SFX">
+					<ShortName>SFX_P4_Oops01.wav</ShortName>
+					<Path>SFX\SFX_P4_Oops01_9E69E797.wem</Path>
+				</File>
+				<File Id="644475235" Language="SFX">
+					<ShortName>AMB_Jungle.wav</ShortName>
+					<Path>SFX\AMB_Jungle_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="665764592" Language="SFX">
+					<ShortName>Throw1.5.wav</ShortName>
+					<Path>SFX\Throw1.5_9E69E797.wem</Path>
+				</File>
+				<File Id="668792031" Language="SFX">
+					<ShortName>SFX_P3_Jump02.wav</ShortName>
+					<Path>SFX\SFX_P3_Jump02_9E69E797.wem</Path>
+				</File>
+				<File Id="671783178" Language="SFX">
+					<ShortName>SFX_Eggs_Speed02.wav</ShortName>
+					<Path>SFX\SFX_Eggs_Speed02_9E69E797.wem</Path>
+				</File>
+				<File Id="673393831" Language="SFX">
+					<ShortName>Roars-004.wav</ShortName>
+					<Path>SFX\Roars-004_9E69E797.wem</Path>
+				</File>
+				<File Id="689390529" Language="SFX">
+					<ShortName>Jump1.2.wav</ShortName>
+					<Path>SFX\Jump1.2_9E69E797.wem</Path>
+				</File>
+				<File Id="702070635" Language="SFX">
+					<ShortName>Roars-003.wav</ShortName>
+					<Path>SFX\Roars-003_9E69E797.wem</Path>
+				</File>
+				<File Id="711492674" Language="SFX">
+					<ShortName>SFX_P3_Jump03.wav</ShortName>
+					<Path>SFX\SFX_P3_Jump03_9E69E797.wem</Path>
+				</File>
+				<File Id="714054869" Language="SFX">
+					<ShortName>SFX_P3_Throw03.wav</ShortName>
+					<Path>SFX\SFX_P3_Throw03_9E69E797.wem</Path>
+				</File>
+				<File Id="715527660" Language="SFX">
+					<ShortName>Dying2-004.wav</ShortName>
+					<Path>SFX\Dying2-004_9E69E797.wem</Path>
+				</File>
+				<File Id="716497348" Language="SFX">
+					<ShortName>SFX_Eagle_Cris01.wav</ShortName>
+					<Path>SFX\SFX_Eagle_Cris01_9E69E797.wem</Path>
+				</File>
+				<File Id="723190737" Language="SFX">
+					<ShortName>02Catch_Effect.wav</ShortName>
+					<Path>SFX\02Catch_Effect_9E69E797.wem</Path>
+				</File>
+				<File Id="745450955" Language="SFX">
+					<ShortName>Birds6.wav</ShortName>
+					<Path>SFX\Birds6_9E69E797.wem</Path>
+				</File>
+				<File Id="749886670" Language="SFX">
+					<ShortName>FS_Dirt_Front04.wav</ShortName>
+					<Path>SFX\FS_Dirt_Front04_9E69E797.wem</Path>
+				</File>
+				<File Id="765921451" Language="SFX">
+					<ShortName>FS_Grass_Front02.wav</ShortName>
+					<Path>SFX\FS_Grass_Front02_9E69E797.wem</Path>
+				</File>
+				<File Id="785595763" Language="SFX">
+					<ShortName>Oops1.4.wav</ShortName>
+					<Path>SFX\Oops1.4_9E69E797.wem</Path>
+				</File>
+				<File Id="790925619" Language="SFX">
+					<ShortName>Jump2-003.wav</ShortName>
+					<Path>SFX\Jump2-003_9E69E797.wem</Path>
+				</File>
+				<File Id="791800992" Language="SFX">
+					<ShortName>Roars-006.wav</ShortName>
+					<Path>SFX\Roars-006_9E69E797.wem</Path>
+				</File>
+				<File Id="800499131" Language="SFX">
+					<ShortName>SFX_P4_Throw01.wav</ShortName>
+					<Path>SFX\SFX_P4_Throw01_9E69E797.wem</Path>
+				</File>
+				<File Id="800812743" Language="SFX">
+					<ShortName>Jump2-001.wav</ShortName>
+					<Path>SFX\Jump2-001_9E69E797.wem</Path>
+				</File>
+				<File Id="820925149" Language="SFX">
+					<ShortName>Catch-egg-001.wav</ShortName>
+					<Path>SFX\Catch-egg-001_70303B93.wem</Path>
+				</File>
+				<File Id="838808918" Language="SFX">
+					<ShortName>SFX_P4_Oops04.wav</ShortName>
+					<Path>SFX\SFX_P4_Oops04_9E69E797.wem</Path>
+				</File>
+				<File Id="859434769" Language="SFX">
+					<ShortName>Throw1.3.wav</ShortName>
+					<Path>SFX\Throw1.3_9E69E797.wem</Path>
+				</File>
+				<File Id="873155314" Language="SFX">
+					<ShortName>SFX_Rock_Falling01.wav</ShortName>
+					<Path>SFX\SFX_Rock_Falling01_9E69E797.wem</Path>
+				</File>
+				<File Id="876879778" Language="SFX">
+					<ShortName>Jump1.4.wav</ShortName>
+					<Path>SFX\Jump1.4_9E69E797.wem</Path>
+				</File>
+				<File Id="878595229" Language="SFX">
+					<ShortName>Catch-egg-002.wav</ShortName>
+					<Path>SFX\Catch-egg-002_9E69E797.wem</Path>
+				</File>
+				<File Id="889749822" Language="SFX">
+					<ShortName>Monkey-003.wav</ShortName>
+					<Path>SFX\Monkey-003_9E69E797.wem</Path>
+				</File>
+				<File Id="895719656" Language="SFX">
+					<ShortName>Throw2-004.wav</ShortName>
+					<Path>SFX\Throw2-004_9E69E797.wem</Path>
+				</File>
+				<File Id="895761038" Language="SFX">
+					<ShortName>SFX_P3_Oops03.wav</ShortName>
+					<Path>SFX\SFX_P3_Oops03_9E69E797.wem</Path>
+				</File>
+				<File Id="905574699" Language="SFX">
+					<ShortName>FS_Grass_Front01.wav</ShortName>
+					<Path>SFX\FS_Grass_Front01_9E69E797.wem</Path>
+				</File>
+				<File Id="917354480" Language="SFX">
+					<ShortName>Throw2-005.wav</ShortName>
+					<Path>SFX\Throw2-005_9E69E797.wem</Path>
+				</File>
+				<File Id="930319575" Language="SFX">
+					<ShortName>MUS_Level_Forest2.wav</ShortName>
+					<Path>SFX\MUS_Level_Forest2_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="940345262" Language="SFX">
+					<ShortName>Throw1.2.wav</ShortName>
+					<Path>SFX\Throw1.2_9E69E797.wem</Path>
+				</File>
+				<File Id="946788685" Language="SFX">
+					<ShortName>SFX_P4_Dying04.wav</ShortName>
+					<Path>SFX\SFX_P4_Dying04_9E69E797.wem</Path>
+				</File>
+				<File Id="958536214" Language="SFX">
+					<ShortName>Dying1.2.wav</ShortName>
+					<Path>SFX\Dying1.2_9E69E797.wem</Path>
+				</File>
+				<File Id="964380392" Language="SFX">
+					<ShortName>FS_Dirt_Front03.wav</ShortName>
+					<Path>SFX\FS_Dirt_Front03_9E69E797.wem</Path>
+				</File>
+				<File Id="964972250" Language="SFX">
+					<ShortName>SFX_P3_Throw02.wav</ShortName>
+					<Path>SFX\SFX_P3_Throw02_9E69E797.wem</Path>
+				</File>
+				<File Id="974364511" Language="SFX">
+					<ShortName>Dying2-003.wav</ShortName>
+					<Path>SFX\Dying2-003_9E69E797.wem</Path>
+				</File>
+				<File Id="979812704" Language="SFX">
+					<ShortName>Throw2-003.wav</ShortName>
+					<Path>SFX\Throw2-003_9E69E797.wem</Path>
+				</File>
+				<File Id="999719203" Language="SFX">
+					<ShortName>SFX_P4_Dying02.wav</ShortName>
+					<Path>SFX\SFX_P4_Dying02_9E69E797.wem</Path>
+				</File>
+				<File Id="1007242001" Language="SFX">
+					<ShortName>Break-egg2.wav</ShortName>
+					<Path>SFX\Break-egg2_9E69E797.wem</Path>
+				</File>
+				<File Id="1010943876" Language="SFX">
+					<ShortName>Jump1.5.wav</ShortName>
+					<Path>SFX\Jump1.5_9E69E797.wem</Path>
+				</File>
+				<File Id="1020400451" Language="SFX">
+					<ShortName>01Glue.wav</ShortName>
+					<Path>SFX\01Glue_9E69E797.wem</Path>
+				</File>
+				<File Id="1030999867" Language="SFX">
+					<ShortName>Dying2.005.wav</ShortName>
+					<Path>SFX\Dying2.005_9E69E797.wem</Path>
+				</File>
+				<File Id="1036356640" Language="SFX">
+					<ShortName>Break-egg4.wav</ShortName>
+					<Path>SFX\Break-egg4_9E69E797.wem</Path>
+				</File>
+				<File Id="1037359990" Language="SFX">
+					<ShortName>Dying1.3.wav</ShortName>
+					<Path>SFX\Dying1.3_9E69E797.wem</Path>
+				</File>
+				<File Id="1039345594" Language="SFX">
+					<ShortName>SFX_P3_Dying03.wav</ShortName>
+					<Path>SFX\SFX_P3_Dying03_9E69E797.wem</Path>
+				</File>
+				<File Id="1055292656" Language="SFX">
+					<ShortName>Throw2-007.wav</ShortName>
+					<Path>SFX\Throw2-007_9E69E797.wem</Path>
+				</File>
+				<File Id="1059225506" Language="SFX">
+					<ShortName>Jump2-005.wav</ShortName>
+					<Path>SFX\Jump2-005_9E69E797.wem</Path>
+				</File>
+				<File Id="1065548936" Language="SFX">
+					<ShortName>03Catch_Effect.wav</ShortName>
+					<Path>SFX\03Catch_Effect_9E69E797.wem</Path>
+				</File>
+				<File Id="1066380652" Language="SFX">
+					<ShortName>SFX_P3_Jump01.wav</ShortName>
+					<Path>SFX\SFX_P3_Jump01_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

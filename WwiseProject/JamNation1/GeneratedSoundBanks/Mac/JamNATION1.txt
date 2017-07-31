@@ -1,0 +1,187 @@
+Event	ID	Name			Wwise Object Path	Notes
+	104172609	P2_Dying			\Default Work Unit\P2\P2_Dying	
+	150832419	P1_Jump			\Default Work Unit\P1\P1_Jump	
+	457485834	MUS_Level_Play			\Default Work Unit\MUS_Level_Play	
+	493090309	MUS_Level_Grotto			\Default Work Unit\MUS_Level_Grotto	
+	544795564	SFX_Eggs_Impact			\Default Work Unit\SFX_Eggs_Impact	
+	738150556	SFX_P4_Throw			\Default Work Unit\P4\SFX_P4_Throw	
+	778605252	Ambiance_start			\Default Work Unit\Ambiance_start	
+	968454069	SFX_P4_Oops			\Default Work Unit\P4\SFX_P4_Oops	
+	1022741657	P1_Throw			\Default Work Unit\P1\P1_Throw	
+	1099710263	MUS_Level_Jungle			\Default Work Unit\MUS_Level_Jungle	
+	1201886138	Cave_Beach			\Default Work Unit\Cave_Beach	
+	1220082869	SFX_Eggs_Catching			\Default Work Unit\SFX_Eggs_Catching	
+	1240468467	FS_Players			\Default Work Unit\FS_Players	
+	1372435655	P2_Oops			\Default Work Unit\P2\P2_Oops	
+	1424313346	P2_Throw			\Default Work Unit\P2\P2_Throw	
+	1561691771	SFX_Eggs_Speed			\Default Work Unit\SFX_Eggs_Speed	
+	1895335531	SFX_P3_Throw			\Default Work Unit\P3\SFX_P3_Throw	
+	1912722926	P1_Oops			\Default Work Unit\P1\P1_Oops	
+	2028292196	SFX_P3_Oops			\Default Work Unit\P3\SFX_P3_Oops	
+	2155174042	P2_Jump			\Default Work Unit\P2\P2_Jump	
+	2557209752	SFX_P4_Jump			\Default Work Unit\P4\SFX_P4_Jump	
+	2566409294	Jungle_Cave			\Default Work Unit\Jungle_Cave	
+	2705956761	SFX_P3_Jump			\Default Work Unit\P3\SFX_P3_Jump	
+	3062786871	SFX_P4_Dying			\Default Work Unit\P4\SFX_P4_Dying	
+	3419501818	P1_Dying			\Default Work Unit\P1\P1_Dying	
+	3459086025	SFX_Eggs_Breaking			\Default Work Unit\SFX_Eggs_Breaking	
+	3596722615	Sounds_Off			\Default Work Unit\Sounds_Off	
+	3833726988	Mountain_Jungle			\Default Work Unit\Mountain_Jungle	
+	3865666512	SFX_P3_Dying			\Default Work Unit\P3\SFX_P3_Dying	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3714303081	Surfaces			\Default Work Unit\Surfaces	
+
+Switch	ID	Name	Switch Group			Notes
+	2195636714	Dirt	Surfaces			
+	4248645337	Grass	Surfaces			
+
+Effect plug-ins	ID	Name	Type				Notes
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	7027881	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\Sporadic_Sounds\Silence01\Wwise Silence	
+	325782421	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\Sporadic_Sounds\Silence03\Wwise Silence	
+	587357184	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Roars\Silence01\Wwise Silence	
+	739416262	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\Sporadic_Sounds\Silence02\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2794092	SFX_P4_Dying01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Dying01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Dying\SFX_P4_Dying01		0
+	7790226	Oops1_2	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops1.2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_2		0
+	14873747	Dying1_5	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying1.5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_5		0
+	16221165	SFX_P4_Throw04	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Throw04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Throw\SFX_P4_Throw04		0
+	27508780	Catch-egg-003	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Catch-egg-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Catching\SFX_Eggs_Toc\Catch-egg-003		0
+	36245745	Dying1_7	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying1.7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_7		0
+	36830716	Throw1_6	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw1.6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_6		0
+	62902695	Catch-egg-001	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Catch-egg-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Catching\SFX_Eggs_Toc\Catch-egg-001		0
+	64865295	Jump2-002	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump2-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-002		0
+	91161987	Oops2-005	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops2-005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-005		0
+	99470559	02Glue	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\02Glue_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Breaking\Glue\02Glue		0
+	103563836	AMB_River	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\AMB_River_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Village\AMB_River		0
+	126832937	Jump1_3	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump1.3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Jump\Jump1_3		0
+	134099175	Catch-egg-002	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Catch-egg-002_32A17CE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Impact\Catch-egg-002		0
+	137136896	MUS_Level_Grotte2	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\MUS_Level_Grotte2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Level\MUS_Level_Grotte\MUS_Level_Grotte2\MUS_Level_Grotte2		0
+	142788065	Oops1_1	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops1.1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_1		0
+	157561799	Oops2-002	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops2-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-002		0
+	160753004	SFX_Eagle_Cris03	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_Eagle_Cris03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\Sporadic_Sounds\SFX_Eagles_Cris\SFX_Eagle_Cris03		0
+	176228745	Oops1_6	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops1.6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_6		0
+	207249369	Birds1	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Birds1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds1		0
+	207984638	SFX_P4_Oops02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Oops02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Oops\SFX_P4_Oops02		0
+	211549758	SFX_P4_Oops03	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Oops03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Oops\SFX_P4_Oops03		0
+	211616883	Dying1_4	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying1.4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_4		0
+	227321394	SFX_P4_Jump04	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Jump04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Jump\SFX_P4_Jump04		0
+	227853349	FS_Grass_Rear02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\FS_Grass_Rear02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Surfaces\FS_Grass\FS_Grass_Rear02		0
+	229070333	04Glue	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\04Glue_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Breaking\Glue\04Glue		0
+	230369024	Oops2-003	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops2-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-003		0
+	240691787	Break-egg1	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Break-egg1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Breaking\Chips\Break-egg1		0
+	250981103	Birds2	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Birds2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds2		0
+	254843072	Jump2-006	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump2-006_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-006		0
+	265597687	SFX_P3_Oops02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Oops02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Oops\SFX_P3_Oops02		0
+	269130374	SFX_Eggs_Speed01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_Eggs_Speed01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Speed\SFX_Eggs_Speed01		0
+	274649596	FS_Dirt_Front01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\FS_Dirt_Front01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Surfaces\FS_Dirt\FS_Dirt_Front01		0
+	291133565	Oops2-006	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops2-006_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-006		0
+	309886106	Dying2-001	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying2-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2-001		0
+	335844138	SFX_P4_Jump03	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Jump03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Jump\SFX_P4_Jump03		0
+	339886118	SFX_P3_Jump04	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Jump04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Jump\SFX_P3_Jump04		0
+	339911377	RiresBis	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\RiresBis_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Village\RiresBis		0
+	342186951	SFX_P4_Jump01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Jump01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Jump\SFX_P4_Jump01		0
+	344249088	Jump1_1	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump1.1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Jump\Jump1_1		0
+	345994468	Oops1_5	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops1.5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_5		0
+	349305849	Throw1_4	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw1.4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_4		0
+	354195372	Oops2-001	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops2-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-001		0
+	356223386	Break-egg3	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Break-egg3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Breaking\Chips\Break-egg3		0
+	362193963	SFX_P4_Jump02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Jump02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Jump\SFX_P4_Jump02		0
+	365130271	SFX_P3_Dying01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Dying01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Dying\SFX_P3_Dying01		0
+	366209240	Roars-002	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Roars-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-002		0
+	367192116	Dying2-002	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying2-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2-002		0
+	383758725	SFX_P4_Throw03	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Throw03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Throw\SFX_P4_Throw03		0
+	384835817	AMB_Cave	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\AMB_Grotto_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Grotto\AMB_Cave		0
+	393363518	Birds3	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Birds3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds3		0
+	403061384	Throw1_1	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw1.1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_1		0
+	404386752	Roars-005	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Roars-005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-005		0
+	404987771	Birds5	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Birds5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds5		0
+	413592695	Oops2-007	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops2-007_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-007		0
+	417149169	FS_Dirt_Front02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\FS_Dirt_Front02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Surfaces\FS_Dirt\FS_Dirt_Front02		0
+	421743798	Throw2-002	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw2-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-002		0
+	435390240	SFX_P3_Throw04	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Throw04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Throw\SFX_P3_Throw04		0
+	441706006	03Glue	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\03Glue_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Breaking\Glue\03Glue		0
+	463214926	SFX_P3_Oops01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Oops01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Oops\SFX_P3_Oops01		0
+	467641348	SFX_P4_Throw02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Throw02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Throw\SFX_P4_Throw02		0
+	473115581	SFX_P4_Dying03	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Dying03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Dying\SFX_P4_Dying03		0
+	477978818	SFX_P3_Oops04	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Oops04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Oops\SFX_P3_Oops04		0
+	480041045	Catch-egg-004	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Catch-egg-004_CFFD903B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Impact\Catch-egg-004		0
+	481611726	Monkey-004	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Monkey-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Monkey\Monkey-004		0
+	489373370	Birds4	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Birds4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds4		0
+	490145527	SFX_P3_Dying04	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Dying04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Dying\SFX_P3_Dying04		0
+	497292872	Roars-001	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Roars-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-001		0
+	519311887	Jump2-004	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump2-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-004		0
+	530571175	Monkey-001	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Monkey-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Monkey\Monkey-001		0
+	540591690	MUS_Level_Mountain	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\MUS_Level_Mountain_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Level\MUS_Level_Mountain\MUS_Level_Mountai\MUS_Level_Mountain		0
+	541267717	01Catch_Effect	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\01Catch_Effect_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Catching\SFX_Eggs_Ploc\01Catch_Effect		0
+	557999596	Dying1_1	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying1.1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_1		0
+	560090652	Oops1_3	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops1.3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_3		0
+	563756184	SFX_P3_Dying02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Dying02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Dying\SFX_P3_Dying02		0
+	570688799	Dying1_6	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying1.6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_6		0
+	574506545	Oops2-004	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops2-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Oops\Oops2-004		0
+	579877712	Catch-egg-004	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Catch-egg-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Catching\SFX_Eggs_Toc\Catch-egg-004		0
+	587827652	Catch-egg-003	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Catch-egg-003_AD1B0715.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Impact\Catch-egg-003		0
+	591674832	Throw2-006	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw2-006_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-006		0
+	594172863	Monkey-002	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Monkey-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Monkey\Monkey-002		0
+	595862749	AMB_Mountain	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\AMB_Mountain_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\AMB_Mountain		0
+	600600425	Throw2-001	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw2-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-001		0
+	602060054	SFX_Eagle_Cris02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_Eagle_Cris02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\Sporadic_Sounds\SFX_Eagles_Cris\SFX_Eagle_Cris02		0
+	611238068	SFX_P3_Throw01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Throw01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Throw\SFX_P3_Throw01		0
+	612929619	FS_Grass_Rear01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\FS_Grass_Rear01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Surfaces\FS_Grass\FS_Grass_Rear01		0
+	615702310	SFX_P4_Oops01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Oops01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Oops\SFX_P4_Oops01		0
+	644475235	AMB_Jungle	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\AMB_Jungle_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\AMB_Jungle		0
+	665764592	Throw1_5	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw1.5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_5		0
+	668792031	SFX_P3_Jump02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Jump02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Jump\SFX_P3_Jump02		0
+	671783178	SFX_Eggs_Speed02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_Eggs_Speed02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Speed\SFX_Eggs_Speed02		0
+	673393831	Roars-004	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Roars-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-004		0
+	689390529	Jump1_2	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump1.2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Jump\Jump1_2		0
+	702070635	Roars-003	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Roars-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-003		0
+	711492674	SFX_P3_Jump03	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Jump03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Jump\SFX_P3_Jump03		0
+	714054869	SFX_P3_Throw03	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Throw03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Throw\SFX_P3_Throw03		0
+	715527660	Dying2-004	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying2-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2-004		0
+	716497348	SFX_Eagle_Cris01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_Eagle_Cris01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\Sporadic_Sounds\SFX_Eagles_Cris\SFX_Eagle_Cris01		0
+	723190737	02Catch_Effect	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\02Catch_Effect_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Catching\SFX_Eggs_Ploc\02Catch_Effect		0
+	745450955	Birds6	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Birds6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Birds\Birds6		0
+	749886670	FS_Dirt_Front04	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\FS_Dirt_Front04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Surfaces\FS_Dirt\FS_Dirt_Front04		0
+	765921451	FS_Grass_Front02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\FS_Grass_Front02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Surfaces\FS_Grass\FS_Grass_Front02		0
+	785595763	Oops1_4	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Oops1.4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Oops\Oops1_4		0
+	790925619	Jump2-003	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump2-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-003		0
+	791800992	Roars-006	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Roars-006_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Roars\Roars-006		0
+	800499131	SFX_P4_Throw01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Throw01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Throw\SFX_P4_Throw01		0
+	800812743	Jump2-001	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump2-001_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-001		0
+	820925149	Catch-egg-001	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Catch-egg-001_70303B93.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Impact\Catch-egg-001		0
+	838808918	SFX_P4_Oops04	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Oops04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Oops\SFX_P4_Oops04		0
+	859434769	Throw1_3	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw1.3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_3		0
+	873155314	SFX_Rock_Falling01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_Rock_Falling01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Mountains\Sporadic_Sounds\SFX_Rock_Falling01		0
+	876879778	Jump1_4	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump1.4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Jump\Jump1_4		0
+	878595229	Catch-egg-002	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Catch-egg-002_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Catching\SFX_Eggs_Toc\Catch-egg-002		0
+	889749822	Monkey-003	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Monkey-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\AMB_Jungle\Animals\SFX_Animals\SFX_Monkey\Monkey-003		0
+	895719656	Throw2-004	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw2-004_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-004		0
+	895761038	SFX_P3_Oops03	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Oops03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Oops\SFX_P3_Oops03		0
+	905574699	FS_Grass_Front01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\FS_Grass_Front01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Surfaces\FS_Grass\FS_Grass_Front01		0
+	917354480	Throw2-005	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw2-005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-005		0
+	930319575	MUS_Level_Forest2	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\MUS_Level_Forest2_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Level\MUS_Level_Jungle\MUS_Level_Forest2\MUS_Level_Forest2		0
+	940345262	Throw1_2	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw1.2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Throw\Throw1_2		0
+	946788685	SFX_P4_Dying04	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Dying04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Dying\SFX_P4_Dying04		0
+	958536214	Dying1_2	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying1.2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_2		0
+	964380392	FS_Dirt_Front03	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\FS_Dirt_Front03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Surfaces\FS_Dirt\FS_Dirt_Front03		0
+	964972250	SFX_P3_Throw02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Throw02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Throw\SFX_P3_Throw02		0
+	974364511	Dying2-003	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying2-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2-003		0
+	979812704	Throw2-003	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw2-003_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-003		0
+	999719203	SFX_P4_Dying02	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P4_Dying02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player4\SFX_P4_Dying\SFX_P4_Dying02		0
+	1007242001	Break-egg2	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Break-egg2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Breaking\Chips\Break-egg2		0
+	1010943876	Jump1_5	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump1.5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Jump\Jump1_5		0
+	1020400451	01Glue	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\01Glue_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Breaking\Glue\01Glue		0
+	1030999867	Dying2_005	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying2.005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Dying\Dying2_005		0
+	1036356640	Break-egg4	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Break-egg4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Breaking\Chips\Break-egg4		0
+	1037359990	Dying1_3	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Dying1.3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player1\SFX_P1_Dying\Dying1_3		0
+	1039345594	SFX_P3_Dying03	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Dying03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Dying\SFX_P3_Dying03		0
+	1055292656	Throw2-007	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Throw2-007_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Throw\Throw2-007		0
+	1059225506	Jump2-005	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\Jump2-005_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player2\SFX_P2_Jump\Jump2-005		0
+	1065548936	03Catch_Effect	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\03Catch_Effect_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Eggs_Catching\SFX_Eggs_Ploc\03Catch_Effect		0
+	1066380652	SFX_P3_Jump01	D:\Projet Unity\JamNation1\WwiseProject\JamNation1\.cache\Mac\SFX\SFX_P3_Jump01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO_Players\Player3\SFX_P3_Jump\SFX_P3_Jump01		0
+
