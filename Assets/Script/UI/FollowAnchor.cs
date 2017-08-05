@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowAnchor : MonoBehaviour {
 
     [SerializeField]
-    Transform m_TargetToFollow;
+    private Transform m_TargetToFollow;
 	
 	// Update is called once per frame
 	void Update ()

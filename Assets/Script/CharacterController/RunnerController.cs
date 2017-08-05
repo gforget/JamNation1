@@ -32,6 +32,9 @@ public class RunnerController : MonoBehaviour
     public float m_TimeRespawn = 2.0f;
 
     public SkinnedMeshRenderer m_Renderer;
+    
+    [HideInInspector]
+    public Vector3 m_TargetDirection;
 
     public bool m_ControllerLock
     {
@@ -145,10 +148,6 @@ public class RunnerController : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else
-        {
-            GameManager.instance.AddEgg(m_EggController);
-        }
     }
 
     bool m_HavePressA;
@@ -183,7 +182,10 @@ public class RunnerController : MonoBehaviour
 
     private void Update()
     {
+        
         if (!m_Gamepad.IsConnected || characterState == CharacterState.Death || m_ControllerLock) return;
+
+        m_TargetDirection = transform.forward * m_Gamepad.GetStick_L().X * lookAtDirection + transform.up * m_Gamepad.GetStick_L().Y;
 
         if (m_Gamepad.GetButtonDown("A") && (m_Controller.isGrounded || m_JumpAirDelayed))
         {
@@ -199,8 +201,7 @@ public class RunnerController : MonoBehaviour
             {
                 AkSoundEngine.PostEvent("P" + m_PlayerIndex + "_Throw", gameObject);
                 m_Animator.SetTrigger("Toss");
-
-                m_EggController.LaunchEgg((transform.forward * m_Gamepad.GetStick_L().X * lookAtDirection + transform.up * m_Gamepad.GetStick_L().Y) * m_BaseThrowEgg);
+                m_EggController.LaunchEgg((m_TargetDirection) * m_BaseThrowEgg);
                 characterState = CharacterState.withoutEgg;
             }
         }
@@ -255,7 +256,7 @@ public class RunnerController : MonoBehaviour
 
         m_Controller.Move(m_Direction*Time.deltaTime);
 
-        m_Animator.SetBool("grounded", m_Controller.isGrounded);
+        m_Animator.SetBool("grounded", m_Controller.isGrounded || m_JumpAirDelayed);
         m_Animator.SetBool("haveEgg", characterState == CharacterState.withEgg);
         m_Animator.SetFloat("XVelocity", Mathf.Abs(m_XVelocity));
         m_Animator.SetFloat("YVelocity", m_YVelocity);

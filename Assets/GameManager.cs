@@ -16,7 +16,6 @@ public class GameManager : MonoBehaviour {
     }
     private static GameManager m_Instance;
 
-    //0 = mountain, 1 = jungle, 2 = cavern, 3 = beach;
     public int biome = 0;
     public GameObject EggPrefab;
     public Canvas MainCanvas;
@@ -24,8 +23,9 @@ public class GameManager : MonoBehaviour {
     public Text Player2Text;
     public Text Player3Text;
     public Text Player4Text;
+    public bool NightMode;
 
-    private List<EggController> m_EggControllers = new List<EggController>();
+    public List<EggController> m_EggControllers = new List<EggController>();
     private List<RunnerController> m_RunnerControllers = new List<RunnerController>();
 
     public void AddRunner(RunnerController runner)
@@ -46,7 +46,6 @@ public class GameManager : MonoBehaviour {
     public void RemoveEgg(EggController egg)
     {
         if (!m_EggControllers.Remove(egg)) return;
-
         float zPosition = egg.transform.position.z;
         if (m_EggControllers.Count == 0)
         {
@@ -62,21 +61,20 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-	string[] ambianceNames;
-	string[] musiqueNames;
+	string[] ambianceNames = new string[4];
+	string[] musiqueNames = new string[4];
 
-	public bool cavernLight;
+    public bool cavernLight;
 	public Light dirLight;
+    public Light nightDirLight;
     public bool levelDone = false;
 
 	void Start() {
-		musiqueNames = new string[4];
 		musiqueNames[0] = "MUS_Level_Play";
 		musiqueNames[1] = "MUS_Level_Jungle";
 		musiqueNames[2] = "MUS_Level_Grotto";
 		musiqueNames[3] = "MUS_Level_Jungle";
 
-		ambianceNames = new string[4];
 		ambianceNames[0] = "Ambiance_start";
 		ambianceNames[1] = "Mountain_Jungle";
 		ambianceNames[2] = "Jungle_Cave";
@@ -106,14 +104,30 @@ public class GameManager : MonoBehaviour {
         if (cavernLight == true)
         {
             dirLight.DOIntensity(0, 0.50f);
+            nightDirLight.DOIntensity(1.0f, 0.5f);
             RenderSettings.ambientIntensity = 0.1f;
             RenderSettings.reflectionIntensity = 0.1f;
+
+            foreach (EggController egg in m_EggControllers)
+            {
+                egg.m_EggPointLight.gameObject.SetActive(true);
+            }
+
+            NightMode = true;
         }
         else
         {
             dirLight.DOIntensity(1, 0.50f);
+            nightDirLight.DOIntensity(0.0f,0.5f);
             RenderSettings.ambientIntensity = 1f;
             RenderSettings.reflectionIntensity = 1f;
+
+            foreach (EggController egg in m_EggControllers)
+            {
+                egg.m_EggPointLight.gameObject.SetActive(false);
+            }
+
+            NightMode = false;
         }
     }
 

@@ -7,6 +7,7 @@ public class EggController : MonoBehaviour {
     public bool NotUsable = false;
     public float VelocityDestroy = 10.0f;
     public bool IsTaken = true;
+    public Light m_EggPointLight;
 
     Rigidbody m_RigidBody;
     TrailRenderer TrailRenderer;
@@ -18,11 +19,11 @@ public class EggController : MonoBehaviour {
     {
         m_RigidBody = GetComponent<Rigidbody>();
         TrailRenderer = GetComponent<TrailRenderer>();
-
         m_Renderer = GetComponent<MeshRenderer>();
+        m_EggPointLight.gameObject.SetActive(GameManager.instance.NightMode);
     }
 
-    private void OnDestroy()
+    private void OnDisable()
     {
        if (GameManager.instance != null) GameManager.instance.RemoveEgg(this);
     }
@@ -31,7 +32,6 @@ public class EggController : MonoBehaviour {
 
     private void Update()
     {
-
         if (m_Renderer.isVisible) m_HaveBeenVisible = true;
         if (!m_Renderer.isVisible && m_HaveBeenVisible)
         {

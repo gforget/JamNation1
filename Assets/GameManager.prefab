@@ -58,5 +58,11 @@ MonoBehaviour:
   Player2Text: {fileID: 0}
   Player3Text: {fileID: 0}
   Player4Text: {fileID: 0}
+  m_EggControllers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   cavernLight: 0
   dirLight: {fileID: 0}
+  levelDone: 0
